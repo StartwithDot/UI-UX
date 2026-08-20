@@ -25,11 +25,11 @@ Your job in week 5 is to work out whether that belief is true, before anyone des
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | before Monday |
-| 3 | `02-week5.md` | Monday of week 5 |
-| 4 | `03-week6.md` | Monday of week 6 |
-| 5 | `04-week7.md` | Monday of week 7 |
-| 6 | `05-week8.md` | Monday of week 8 |
+| 2 | `01-project-brief.md` | before the start of the week |
+| 3 | `02-week5.md` | when week 5 opens |
+| 4 | `03-week6.md` | when week 6 opens |
+| 5 | `04-week7.md` | when week 7 opens |
+| 6 | `05-week8.md` | when week 8 opens |
 
 Reference: `06-research-ethics.md` — consent, minors, and data handling. Read it before you recruit anybody. This sprint involves students, which means some participants may be under 18, and that changes what you are allowed to do.
 
@@ -81,12 +81,12 @@ Full details in the root `03-Books-And-Resources.md`.
 - A finding-to-decision map: every design change traced to evidence
 - A redesigned flow based on what you found, not what you assumed
 - One post mortem on the mid-sprint failure
-- 20 daily learning summaries
+- 20 learning summaries
 - A passed defense
 
 ---
 
-## Before Monday
+## Before the start of the week
 
 - [ ] Read `01-project-brief.md`
 - [ ] Read `06-research-ethics.md` completely

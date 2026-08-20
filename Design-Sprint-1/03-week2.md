@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Draw a complete flow including every failure path, not just the happy one
 - Design a form where every field has a label, a hint, and a stated validation rule
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Form Design Patterns ch. 1 "A Registration Form" | P2.1 P2.2 — flow diagram, the no-OTP path |
-| **Tue** | Form Design Patterns ch. 2 "A Checkout Form" | P2.3 C3.1 — form structure decision, happy path |
-| **Wed** | Form Design Patterns ch. 3 · NNGroup on error messages | C3.2 C3.3 — document guidance, address entry |
-| **Thu** | NNGroup "Error Message Guidelines" · Polaris content guidance | C4.1 C4.2 — error inventory and messages · **critique** |
-| **Fri** | Figma Learn: Variants, Properties | C3.4 C4.3 C4.4 — upload states, confirmation, plain language |
-| **Sat** | — | S2 component contribution · F2 why session and teardown |
+| **1** | Form Design Patterns ch. 1 "A Registration Form" | P2.1 P2.2 — flow diagram, the no-OTP path |
+| **2** | Form Design Patterns ch. 2 "A Checkout Form" | P2.3 C3.1 — form structure decision, happy path |
+| **3** | Form Design Patterns ch. 3 · NNGroup on error messages | C3.2 C3.3 — document guidance, address entry |
+| **4** | NNGroup "Error Message Guidelines" · Polaris content guidance | C4.1 C4.2 — error inventory and messages · **critique** |
+| **5** | Figma Learn: Variants, Properties | C3.4 C4.3 C4.4 — upload states, confirmation, plain language |
+| **6** | — | S2 component contribution · F2 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -36,13 +36,13 @@
 
 **What to take from ch. 1:** a placeholder is not a label, because it disappears exactly when the user needs it. Labels go above the field on mobile. Validate on submit, not on every keystroke, unless the field has a format the user cannot guess.
 
-→ **Commit** `students/UX{n}/week2/day1-learning.md`
+→ **Commit** `students/UX{n}/week2/session1-learning.md`
 
 ## DO — 90 minutes
 
 ### P2.1 — Draw the full flow
 
-**Learn first:** the Mermaid flowchart syntax from this morning.
+**Learn first:** the Mermaid flowchart syntax from this study time.
 
 **Method**
 1. Start with the happy path: every screen from login to confirmation.
@@ -98,7 +98,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 90 minutes
 
@@ -110,7 +110,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 **What to take:** one-thing-per-page reduces cognitive load and makes error recovery cheap, but it adds page loads, which on a 3G connection is a real cost. That is the tradeoff you have to state in P2.3, not resolve by preference.
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -169,7 +169,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 90 minutes
 
@@ -181,7 +181,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 **What to take:** guidance must arrive before the decision, not after the mistake. If a rule only appears in an error message, the design has chosen to let the user fail first.
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
@@ -210,7 +210,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ### C3.3 — Address entry
 
-**Learn first:** GOV.UK's address pattern from Tuesday, and your P2.3 decision.
+**Learn first:** GOV.UK's address pattern from early in the week, and your P2.3 decision.
 
 **Method**
 1. **Before you open Figma**, write the field table. Every field: label, whether it is required, an example, and the validation rule you can actually state.
@@ -237,7 +237,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 75 minutes
 
@@ -250,7 +250,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 **The rule you are learning:** an error message has three jobs — say what happened, say why, say what to do next. Most shipped error messages do one. Some do none.
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -272,7 +272,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ### C4.2 — Write every error message
 
-**Learn first:** the three jobs of an error message, from this morning.
+**Learn first:** the three jobs of an error message, from this study time.
 
 **Method**
 1. For every error in C4.1, write the message.
@@ -301,13 +301,13 @@ Note that each one gives a number, a cause, and a next action.
 
 → `students/UX{n}/week2/C4-2-error-messages.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 
 Present: your happy path, your address entry field table, and three error messages. 12 minutes. Run against `07-critique-guide.md`.
 
 ---
 
-# Friday
+# the end of the week
 
 ## LEARN — 60 minutes
 
@@ -316,7 +316,7 @@ Present: your happy path, your address entry field table, and three error messag
 | **Figma Learn** | "Variants" and "Component properties" lessons | 35 min |
 | **Polaris or Carbon** | One component's documentation page, read as a model for how much detail is needed | 25 min |
 
-→ **Commit** `day5-learning.md`
+→ **Commit** `session5-learning.md`
 
 ## DO — 2 hours
 
@@ -379,7 +379,7 @@ Write the copy. It must answer, in this order:
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S2 — First components, 90 minutes
 
@@ -415,7 +415,7 @@ Your review must name **one thing that will break when someone else uses it**. E
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] P2.1, P2.2, P2.3

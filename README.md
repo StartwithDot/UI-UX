@@ -20,7 +20,7 @@ Do not browse this folder randomly. The files are numbered for a reason.
 | 01 | `01-How-The-Program-Works.md` | Your day, your week, roles, gates, defense. |
 | 02 | `02-Learning-Path.md` | What you learn in each of the 24 weeks. |
 | 03 | `03-Books-And-Resources.md` | What to buy, borrow, and bookmark. |
-| 04 | `04-Tools-Setup.md` | Install list. Do this before day one. |
+| 04 | `04-Tools-Setup.md` | Install list. Do this before the start. |
 | 05 | `05-The-Six-Sprints.md` | The 24-week map on one page. |
 
 Then go to your sprint folder.
@@ -35,7 +35,7 @@ Every sprint has the same files, numbered the same way.
 Design-Sprint-1/
   00-READ-FIRST.md         what ships, how the 4 weeks run
   01-project-brief.md      the client, the users, the constraints
-  02-week1.md              week 1, day by day: learn then do
+  02-week1.md              week 1, step by step: learn then do
   03-week2.md
   04-week3.md
   05-week4.md
@@ -64,16 +64,16 @@ Design-Sprint-1/
 ## How a day works
 
 ```
-MORNING — LEARN, 1 to 2 hours
+STUDY — LEARN, 1 to 2 hours
   a named chapter, a named video, a named page
-  → commit students/UX{n}/week{n}/day{n}-learning.md
+  → commit students/UX{n}/week{n}/session{n}-learning.md
 
-AFTERNOON — DO, 1 to 2 hours
+BUILD — DO, 1 to 2 hours
   a task that uses exactly what you just learned
   → commit students/UX{n}/week{n}/{TASK-ID}-{name}.md
 ```
 
-Learning comes first, every day. Every task tells you what to learn before it, gives you the method, shows you a worked example, and states when you are done.
+Learning always comes first. Every task tells you what to learn before it, gives you the method, shows you a worked example, and states when you are done.
 
 ---
 

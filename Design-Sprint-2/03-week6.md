@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Run a 45-minute interview without leading the participant
 - Sit in silence for five seconds and let someone finish thinking
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Interviewing Users ch. 2–3 | R4.1 — interview 1, notes same day |
-| **Tue** | Interviewing Users ch. 4 · your own transcript | R4.2 R4.3 — self-critique, interview 2 |
-| **Wed** | Interviewing Users ch. 5 | R4.4 — interviews 3 and 4 |
-| **Thu** | Just Enough Research on synthesis | R4.5 R4.6 — interview 5, first pass at patterns · **critique** |
-| **Fri** | NNGroup on affinity diagramming | R4.7 P6.1 — affinity map, revised hypothesis |
-| **Sat** | — | S7 system · F6 why session and teardown |
+| **1** | Interviewing Users ch. 2–3 | R4.1 — interview 1, notes same day |
+| **2** | Interviewing Users ch. 4 · your own transcript | R4.2 R4.3 — self-critique, interview 2 |
+| **3** | Interviewing Users ch. 5 | R4.4 — interviews 3 and 4 |
+| **4** | Just Enough Research on synthesis | R4.5 R4.6 — interview 5, first pass at patterns · **critique** |
+| **5** | NNGroup on affinity diagramming | R4.7 P6.1 — affinity map, revised hypothesis |
+| **6** | — | S7 system · F6 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 75 minutes
 
@@ -36,7 +36,7 @@
 
 **What to take from Portigal:** the guide is a safety net, not a script. The best material comes from following what the participant said, not from getting through your questions. And when they stop talking, wait. The thing they say after the pause is usually the real answer.
 
-→ **Commit** `students/UX{n}/week6/day1-learning.md`
+→ **Commit** `students/UX{n}/week6/session1-learning.md`
 
 ## DO — 2 hours
 
@@ -46,7 +46,7 @@
 1. Read your consent script out loud, do not paraphrase it. Get consent recorded.
 2. Run the interview. 45 minutes.
 3. Record it, with consent. Audio is enough.
-4. Write up notes **the same day**. Not tomorrow. You lose the texture within hours.
+4. Write up notes **straight away**. Not tomorrow. You lose the texture within hours.
 5. Note format: what they said (quoted where it matters) · what they did · what surprised you · what you now doubt.
 6. Anonymise as you write. P1, not a name.
 
@@ -55,7 +55,7 @@
 **Done when**
 - [ ] Consent obtained and logged
 - [ ] 45-minute interview run and recorded
-- [ ] Notes written the same day, in the four-part format
+- [ ] Notes written straight away, in the four-part format
 - [ ] Quotes are actual quotes, marked as such
 - [ ] Fully anonymised
 - [ ] "What surprised me" is filled in and not empty
@@ -64,7 +64,7 @@
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 75 minutes
 
@@ -75,7 +75,7 @@
 
 Listening to yourself interview is the most useful hour in this sprint. Nobody enjoys it.
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -122,7 +122,7 @@ Same protocol. Apply your three fixes. At the end of the write-up, note whether 
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 60 minutes
 
@@ -131,7 +131,7 @@ Same protocol. Apply your three fixes. At the end of the write-up, note whether 
 | **Interviewing Users** | Ch. 5 "Making Sense of Your Data" | 35 min |
 | **Your R4-1 and R4-3 notes** | Read them side by side. Note what both participants did that you did not expect. | 25 min |
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 3 hours
 
@@ -152,7 +152,7 @@ Same protocol. Two in one day is tiring, and if you have to reschedule one, do t
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 60 minutes
 
@@ -162,7 +162,7 @@ Same protocol. Two in one day is tiring, and if you have to reschedule one, do t
 | **NNGroup** | "Affinity Diagramming" | 20 min |
 | **Your R3.2** | Your original risk ranking. Which top-three assumption has survived four interviews? | 10 min |
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -186,18 +186,18 @@ Final interview. Same protocol.
 
 → `students/UX{n}/week6/R4-6-patterns.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Present two findings and one quote. The critique focus: **is this a finding or is it your hypothesis wearing a quote as a costume?**
 
 ---
 
-# Friday
+# the end of the week
 
 ## LEARN — 45 minutes
 
 Re-read your P5.2 reframed brief from last week, before you have looked at this week's patterns again. Write three lines on what you got wrong. Then continue.
 
-→ **Commit** `day5-learning.md`
+→ **Commit** `session5-learning.md`
 
 ## DO — 2 hours
 
@@ -241,7 +241,7 @@ Re-read your P5.2 reframed brief from last week, before you have looked at this 
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S7 — System, 90 minutes
 
@@ -261,7 +261,7 @@ Re-read your P5.2 reframed brief from last week, before you have looked at this 
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] R4.1 through R4.7 — all five interviews done

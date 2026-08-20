@@ -53,7 +53,7 @@ The buyer and the data entry user being different people is the structural probl
 
 ## 4. What is known
 
-- Day 1 to day 3 is where 60 percent of the loss happens
+- The first three days are where 60 percent of the loss happens
 - The signup flow requires adding at least one truck before anything can be seen
 - Adding a truck asks for 9 fields, four of which need documents the owner does not have to hand
 - 71 percent of accounts never add a second truck
@@ -79,7 +79,7 @@ This sprint requires you to define, not just cite, the metrics.
 
 **Primary:** day 30 activation, and you must define activation. The company has not. Is it a trip recorded? Three trips? A second truck added? A driver submitting once? Your definition must be defensible against the retention data, which shows 10 trips in month one is a strong signal.
 
-**Input metrics:** time to first trip recorded, proportion of accounts with a second truck by day 7, proportion of drivers who submit at least one record, first week support contact rate.
+**Input metrics:** time to first trip recorded, proportion of accounts with a second truck in the first week, proportion of drivers who submit at least one record, first week support contact rate.
 
 **Guardrail:** paid conversion and month 12 retention must not fall. An onboarding that gets people to a hollow activation event and then loses them at month 3 has moved a number and destroyed value.
 

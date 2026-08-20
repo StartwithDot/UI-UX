@@ -25,11 +25,11 @@ Three products is the point. A system for one product is a style guide. A system
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | before Monday |
-| 3 | `02-week13.md` | Monday of week 13 |
-| 4 | `03-week14.md` | Monday of week 14 |
-| 5 | `04-week15.md` | Monday of week 15 |
-| 6 | `05-week16.md` | Monday of week 16 |
+| 2 | `01-project-brief.md` | before the start of the week |
+| 3 | `02-week13.md` | when week 1 opens3 |
+| 4 | `03-week14.md` | when week 1 opens4 |
+| 5 | `04-week15.md` | when week 1 opens5 |
+| 6 | `05-week16.md` | when week 1 opens6 |
 
 Reference: `06-token-architecture.md` — the three-layer token model in full, with naming rules.
 
@@ -84,7 +84,7 @@ Plus real systems: Polaris, Material 3, Carbon, Spectrum, and GOV.UK. Read their
 
 ---
 
-## Before Monday
+## Before the start of the week
 
 - [ ] Read `01-project-brief.md`
 - [ ] Read `06-token-architecture.md`

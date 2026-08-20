@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Present findings with confidence levels that match their evidence
 - Hold a contradiction open instead of resolving it by preference
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Just Enough Research on reporting · NNGroup on personas | R6.1 R6.2 — findings report, confidence audit |
-| **Tue** | Journey mapping · service blueprints | R6.3 P8.1 — journey map, finding-to-decision map |
-| **Wed** | Your own Sprint 1 craft notes | C9.1 — redesign the two worst steps |
-| **Thu** | Norman on human error | C9.2 S9.1 — full flow, evidence-linked spec · **critique** |
-| **Fri** | — | **Defense, 55 min** · P8.2 reflection |
-| **Sat** | — | S10 system release · F8 sprint retro |
+| **1** | Just Enough Research on reporting · NNGroup on personas | R6.1 R6.2 — findings report, confidence audit |
+| **2** | Journey mapping · service blueprints | R6.3 P8.1 — journey map, finding-to-decision map |
+| **3** | Your own Sprint 1 craft notes | C9.1 — redesign the two worst steps |
+| **4** | Norman on human error | C9.2 S9.1 — full flow, evidence-linked spec · **critique** |
+| **5** | — | **Defense, 55 min** · P8.2 reflection |
+| **6** | — | S10 system release · F8 sprint retro |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 75 minutes
 
@@ -36,7 +36,7 @@
 
 **Read both persona articles.** Personas are useful when they are built from research and treated as a summary of evidence. They are harmful when they become a fictional person whose preferences get invoked to win arguments. You will build one this week, from your five, and you will label what it is grounded in.
 
-→ **Commit** `students/UX{n}/week8/day1-learning.md`
+→ **Commit** `students/UX{n}/week8/session1-learning.md`
 
 ## DO — 2 hours
 
@@ -87,7 +87,7 @@ Note that the contradiction produced a better design constraint than either indi
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 75 minutes
 
@@ -97,7 +97,7 @@ Note that the contradiction produced a better design constraint than either indi
 | **Just Enough Research** | The section on turning research into design direction | 25 min |
 | **Your R4.7 affinity map** | Re-read the group names | 15 min |
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -145,13 +145,13 @@ Note that the contradiction produced a better design constraint than either indi
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 45 minutes
 
 Re-read your own Sprint 1 week 1 type and colour work, and the Sprint 1 accessibility gate. You are about to design again after three weeks of research, and the craft standard has not dropped.
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2.5 hours
 
@@ -175,7 +175,7 @@ Re-read your own Sprint 1 week 1 type and colour work, and the Sprint 1 accessib
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 60 minutes
 
@@ -186,7 +186,7 @@ Re-read your own Sprint 1 week 1 type and colour work, and the Sprint 1 accessib
 
 **Why:** a slip is when the user intended the right thing and did the wrong thing — usually a design problem you can fix with layout, size, or confirmation. A mistake is when they intended the wrong thing — usually a problem with the conceptual model, which layout cannot fix. Treating a mistake as a slip is why so many redesigns fail.
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -198,12 +198,12 @@ Every screen, mid to high fidelity, incorporating everything. Using the system. 
 The handoff spec, to the Sprint 1 standard, with one addition: **every non-obvious decision carries the finding ID it came from.** An engineer who wants to change something should be able to see what evidence they would be arguing with.
 → `students/UX{n}/week8/S9-1-spec.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Final critique. Present the flow and the finding-to-decision map together. The critique focus: **is every change earned by evidence, or has some craft preference been laundered through a quote?**
 
 ---
 
-# Friday
+# the end of the week
 
 ## Defense — 55 minutes
 
@@ -230,7 +230,7 @@ Final critique. Present the flow and the finding-to-decision map together. The c
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S10 — System release
 

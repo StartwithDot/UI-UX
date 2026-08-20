@@ -6,7 +6,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Produce a complete states matrix and design the states nobody remembers
 - Run a moderated usability test on three people without leading them
@@ -15,18 +15,18 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Refactoring UI on empty states · Material 3 + Polaris state guidance | C5.1 C5.2 — states matrix, empty and loading |
-| **Tue** | Rocket Surgery Made Easy ch. 1–4 | R2.1 R2.2 — test script, recruit and run session 1 |
-| **Wed** | Krug on observing without leading | R2.3 R2.4 — sessions 2 and 3, severity rating |
-| **Thu** | Your own findings, re-read cold | C5.3 C6.1 — offline and error states, fixes · **critique** · **whiteboard why** |
-| **Fri** | (failure injection lands) | X1 P3.1 — post mortem, revised decisions |
-| **Sat** | — | S3 system update · F3 why session and teardown |
+| **1** | Refactoring UI on empty states · Material 3 + Polaris state guidance | C5.1 C5.2 — states matrix, empty and loading |
+| **2** | Rocket Surgery Made Easy ch. 1–4 | R2.1 R2.2 — test script, recruit and run session 1 |
+| **3** | Krug on observing without leading | R2.3 R2.4 — sessions 2 and 3, severity rating |
+| **4** | Your own findings, re-read cold | C5.3 C6.1 — offline and error states, fixes · **critique** · **whiteboard why** |
+| **5** | (failure injection lands) | X1 P3.1 — post mortem, revised decisions |
+| **6** | — | S3 system update · F3 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -39,7 +39,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 **What to take:** the three response-time limits are 0.1s (feels instant), 1s (thought stays uninterrupted), 10s (attention is lost). Which loading treatment you use is determined by which side of those numbers you are on, not by taste.
 
-→ **Commit** `students/UX{n}/week3/day1-learning.md`
+→ **Commit** `students/UX{n}/week3/session1-learning.md`
 
 ## DO — 2 hours
 
@@ -99,7 +99,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 90 minutes
 
@@ -111,7 +111,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 **What to take:** three users find most of what five find. Your job in the session is to shut up. The most useful thing you can say is "what are you trying to do?" and the most damaging is "did you see the button up there?"
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -153,7 +153,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 60 minutes
 
@@ -163,20 +163,20 @@ This is the week something breaks. A constraint will change mid-week. You do not
 | **NNGroup** | "Severity Ratings for Usability Problems" | 20 min |
 | **Your own R2.2 notes** | Re-read them cold, before running session 2 | 10 min |
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
 ### R2.3 — Sessions 2 and 3
 Same protocol as R2.2. Do not change your prototype between sessions. Changing mid-study means you tested two different things and can compare neither.
 
-If something is obviously catastrophic, note it and keep going. You fix it on Thursday.
+If something is obviously catastrophic, note it and keep going. You fix it late in the week.
 
 → `students/UX{n}/week3/R2-3-sessions-2-3.md`
 
 ### R2.4 — Findings and severity
 
-**Learn first:** the NNGroup severity ratings article from this morning.
+**Learn first:** the NNGroup severity ratings article from this study time.
 
 **Method**
 1. Now you interpret. One row per issue.
@@ -201,7 +201,7 @@ If something is obviously catastrophic, note it and keep going. You fix it on Th
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 45 minutes
 
@@ -209,7 +209,7 @@ Re-read your own R1.2 heuristic audit from week 1 next to your R2.4 findings fro
 
 Answer in writing, three lines: which of your week 1 heuristic findings did real users actually hit? Which did they never notice? What does that tell you about the limits of heuristic evaluation?
 
-→ **Commit** `day4-learning.md` — this one is short and it matters. Heuristic evaluation finds things testing misses, and testing finds things heuristics miss. Knowing which is which is a real skill.
+→ **Commit** `session4-learning.md` — this one is short and it matters. Heuristic evaluation finds things testing misses, and testing finds things heuristics miss. Knowing which is which is a real skill.
 
 ## DO — 2 hours (plus critique and whiteboard why)
 
@@ -251,7 +251,7 @@ For state 4, you must state what the system does: is submission idempotent, is t
 
 → `students/UX{n}/week3/C6-1-fixes.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Present your findings and your fixes. The strongest thing you can present is a finding that contradicted something you were confident about in week 2.
 
 ### Whiteboard why — 15 minutes, with the admin
@@ -259,11 +259,11 @@ No notes. No files open. Draw your flow from memory and answer three questions d
 
 ---
 
-# Friday
+# the end of the week
 
 ## The failure injection lands
 
-The admin delivers a constraint change this morning. You do not know in advance which one. It is real, it is not negotiable, and it invalidates part of what you built.
+The admin delivers a constraint change this study time. You do not know in advance which one. It is real, it is not negotiable, and it invalidates part of what you built.
 
 ## DO — 2 hours
 
@@ -278,7 +278,7 @@ The admin delivers a constraint change this morning. You do not know in advance 
 
 **Worked example** — the shape of point 4, for a different injection:
 
-> If I had built the address entry as a component with the field list driven by a config array instead of nine hard-placed fields, adding the two new mandatory fields would have been a 10-minute change instead of redrawing four screens. I hard-placed them because it was faster on Tuesday. It cost me four hours on Friday.
+> If I had built the address entry as a component with the field list driven by a config array instead of nine hard-placed fields, adding the two new mandatory fields would have been a 10-minute change instead of redrawing four screens. I hard-placed them because it was faster on early in the week. It cost me four hours on the end of the week.
 
 That is the answer the defense is looking for: a named earlier decision, the reason it was made, and the price it charged.
 
@@ -309,7 +309,7 @@ That is the answer the defense is looking for: a named earlier decision, the rea
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S3 — System update, 90 minutes
 
@@ -337,7 +337,7 @@ If the injection affected the shared system, the cohort decides together how to 
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] C5.1, C5.2, C5.3

@@ -1,12 +1,12 @@
 # 04 — Tools Setup
 
-Do all of this before week 1 day 1. It takes about an hour.
+Do all of this before week 1 the first task. It takes about an hour.
 
 **The rule:** at most two new tools per sprint. Tool count is the easiest thing to inflate and the least valuable thing to own.
 
 ---
 
-## 1. Before day one — install and sign up
+## 1. Before the start — install and sign up
 
 ### Figma — free account
 1. Sign up at figma.com with the email you gave the admin
@@ -14,7 +14,7 @@ Do all of this before week 1 day 1. It takes about an hour.
 3. Create your practice file, named exactly: `SPRINT-1 Practice UX{n}` (use your own code)
 4. Install the Figma desktop app. The browser version is slower for real work.
 
-**Before week 1 day 1, complete these Figma Learn lessons:**
+**Before week 1 the first task, complete these Figma Learn lessons:**
 - Auto layout (about 20 min)
 - Components and instances (about 15 min)
 - Variants (about 10 min)
@@ -32,7 +32,7 @@ Install both if you can. You use axe on the live service in week 1 and Stark ins
 - **macOS:** VoiceOver. Turn on with `Cmd + F5`.
 - **Windows:** NVDA, free at nvaccess.org.
 
-**Do this before day one:** turn it on and navigate one website you know for five minutes. Then turn it off. The point is that it is not new to you the first time it is graded, in week 4.
+**Do this before the start:** turn it on and navigate one website you know for five minutes. Then turn it off. The point is that it is not new to you the first time it is graded, in week 4.
 
 ### Git and GitHub — free
 1. GitHub account, if you do not already have one

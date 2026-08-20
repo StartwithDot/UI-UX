@@ -20,63 +20,63 @@ Squash merge being disabled is not a preference. Squashing erases individual aut
 
 ## Week 1: Frame
 
-**Monday kickoff, 15 minutes.** Say only this:
+**the start of the week kickoff, 15 minutes.** Say only this:
 
-> "Nobody designs anything this week. You audit what exists and you build the foundations. On Thursday we choose one type scale, one spacing scale, and one colour system out of the five each of you will bring, and four of you will lose that argument. That is the exercise."
+> "Nobody designs anything this week. You audit what exists and you build the foundations. On late in the week we choose one type scale, one spacing scale, and one colour system out of the five each of you will bring, and four of you will lose that argument. That is the exercise."
 
-Telling them in advance that four will lose changes how they present. It also prevents the Thursday session becoming personal.
+Telling them in advance that four will lose changes how they present. It also prevents the late in the week session becoming personal.
 
-**Wednesday.** Read the heuristic audits. The tell for a weak audit is findings phrased as taste. Comment on the two weakest with the same question: "what does this cost the user".
+**mid week.** Read the heuristic audits. The tell for a weak audit is findings phrased as taste. Comment on the two weakest with the same question: "what does this cost the user".
 
-**Thursday.** Critique, then the foundations session. Run the foundations session yourself, do not delegate it in week 1.
+**late in the week.** Critique, then the foundations session. Run the foundations session yourself, do not delegate it in week 1.
 
 How to run it: each designer presents their scale in 3 minutes. No discussion during presentations. Then one question to the room: "which of these survives Devanagari at every step". That question usually decides it, because most will not have tested it, and the one who did wins on evidence rather than taste. Record what was rejected and why in `system/docs/foundations-decision.md`.
 
-**Friday.** Approve the token JSON. Check one thing specifically: does any semantic token reference a hex value directly instead of a primitive. If yes, send it back. That single check teaches the layering better than a lecture.
+**the end of the week.** Approve the token JSON. Check one thing specifically: does any semantic token reference a hex value directly instead of a primitive. If yes, send it back. That single check teaches the layering better than a lecture.
 
-**The week 1 failure to expect.** Designers who open Figma on Monday and start drawing screens. Catch it Tuesday, not Thursday. The response is not "stop", it is "show me your problem statement first".
+**The week 1 failure to expect.** Designers who open Figma at the start of the week and start drawing screens. Catch it early in the week, not late in the week. The response is not "stop", it is "show me your problem statement first".
 
 ## Week 2: Build
 
-**Monday.** Assign components. Give the hardest one, file upload, to whoever produced the strongest week 1 audit, because they will find the real states. Assign select to whoever is weakest technically, because the native versus custom question forces them into accessibility.
+**the start of the week.** Assign components. Give the hardest one, file upload, to whoever produced the strongest week 1 audit, because they will find the real states. Assign select to whoever is weakest technically, because the native versus custom question forces them into accessibility.
 
-**Wednesday.** Read the error inventories. Anyone with fewer than 15 has not looked at the service. Anyone whose messages start with "Oops" or "Something went wrong" gets one comment: "what does this tell Ramesh to do".
+**mid week.** Read the error inventories. Anyone with fewer than 15 has not looked at the service. Anyone whose messages start with "Oops" or "Something went wrong" gets one comment: "what does this tell Ramesh to do".
 
-**Thursday critique.** Watch for the cohort agreeing with each other. Week 2 is when politeness sets in. If two sessions pass with no disagreement, name it: "nobody has disagreed with anybody in ninety minutes, which means either you all made the same choices or nobody is saying what they think".
+**the week's critique.** Watch for the cohort agreeing with each other. Week 2 is when politeness sets in. If two sessions pass with no disagreement, name it: "nobody has disagreed with anybody in ninety minutes, which means either you all made the same choices or nobody is saying what they think".
 
-**Friday.** Run the states gate on one designer's upload screen, chosen at random, in front of everyone. Not to embarrass, to calibrate. The first time the gate is applied publicly is what makes it real for the rest of the sprint.
+**the end of the week.** Run the states gate on one designer's upload screen, chosen at random, in front of everyone. Not to embarrass, to calibrate. The first time the gate is applied publicly is what makes it real for the rest of the sprint.
 
 **The week 2 failure to expect.** Happy path only, states deferred. This is the most common failure in the entire program. Every designer does it once. The injection in week 3 punishes it, which is why the injection is where it is.
 
 ## Week 3: Test, fix, and the injection
 
-**Monday, 10:00.** Deliver the injection. Verbatim from `failure-injections/sprint1.md`. Then go quiet.
+**the start of the week, 10:00.** Deliver the injection. Verbatim from `failure-injections/sprint1.md`. Then go quiet.
 
-**Monday to Wednesday.** Answer only what a department would answer. Track two things: who asks about the refund, and what each person cuts.
+**the start of the week to mid week.** Answer only what a department would answer. Track two things: who asks about the refund, and what each person cuts.
 
-**Wednesday.** Whiteboard why, 15 minutes each. No file open, no notes. They draw their flow from memory and answer three questions drawn at random.
+**mid week.** Whiteboard why, 15 minutes each. No file open, no notes. They draw their flow from memory and answer three questions drawn at random.
 
 The value is not the drawing. It is watching whether they can reconstruct their own reasoning without their artefacts. A designer who cannot draw their own flow from memory has been decorating, not deciding.
 
-**Thursday critique.** Test results, not screens. Require every claim to name a participant. The phrase to stop is "users found", every time, without exception: "which user, what did they do".
+**the week's critique.** Test results, not screens. Require every claim to name a participant. The phrase to stop is "users found", every time, without exception: "which user, what did they do".
 
-**Friday.** Injection debrief, script in the injection file. Then read the cohort's cut list out loud. Do not attribute cuts to individuals in the room, aggregate them. Individual notes go in the ledger.
+**the end of the week.** Injection debrief, script in the injection file. Then read the cohort's cut list out loud. Do not attribute cuts to individuals in the room, aggregate them. Individual notes go in the ledger.
 
 **The week 3 failure to expect.** Testing with friends who want them to succeed, and recording opinions instead of behaviour. The catch: ask for the hesitation timings. A designer who recorded "she said it was clear" and cannot say how long she paused was watching for approval, not for data.
 
 ## Week 4: Ship and defend
 
-**Monday.** One line: "the gate is Tuesday, not Friday. Fixes take longer than checks."
+**the start of the week.** One line: "the gate is early in the week, not the end of the week. Fixes take longer than checks."
 
-**Tuesday to Wednesday.** Read every gate result. The tell for a faked gate is uniform "pass" with no measured numbers. Send those back with one instruction: "give me the ratio".
+**early in the week to mid week.** Read every gate result. The tell for a faked gate is uniform "pass" with no measured numbers. Send those back with one instruction: "give me the ratio".
 
-**Thursday.** Handoff reviews. Read the three questions each designer wrote about their peer's spec. Those questions are the most honest measure of spec quality in the sprint and they cost you nothing to collect.
+**late in the week.** Handoff reviews. Read the three questions each designer wrote about their peer's spec. Those questions are the most honest measure of spec quality in the sprint and they cost you nothing to collect.
 
-**Friday.** Merge freeze at 18:00. Everything not merged does not exist for the defense.
+**the end of the week.** Merge freeze at 18:00. Everything not merged does not exist for the defense.
 
-**Saturday.** Defenses. 55 minutes each, five designers, plus breaks. That is a 6 hour day and it cannot be compressed. Run two in the morning, three after lunch. Guest critic sits in at least one.
+**the cohort review.** Defenses. 55 minutes each, five designers, plus breaks. That is a 6 hour day and it cannot be compressed. Run two in the study time, three after lunch. Guest critic sits in at least one.
 
-**Sunday.** Ledger update, sprint retro, and one honest message to each designer with their weakest round and the coaching action for Sprint 2.
+**before the week opens.** Ledger update, sprint retro, and one honest message to each designer with their weakest round and the coaching action for Sprint 2.
 
 ## Load, actual
 

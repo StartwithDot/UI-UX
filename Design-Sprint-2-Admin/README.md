@@ -18,7 +18,7 @@ Watch for research plans that cannot fail. If the plan has no falsification cond
 
 The tell for a bad interview, from the transcript: the interviewer's turns are longer than the participant's.
 
-**Week 7.** The injection lands Monday. Two participants withdraw consent. Every finding built on them must come out, and the confidence on everything adjacent drops.
+**Week 7.** The injection lands the start of the week. Two participants withdraw consent. Every finding built on them must come out, and the confidence on everything adjacent drops.
 
 Watch for who quietly leaves the findings in and only removes the quotes. That is the behaviour the injection exists to surface, and it is a dishonesty flag, not a mistake flag.
 
@@ -26,7 +26,7 @@ Watch for who quietly leaves the findings in and only removes the quotes. That i
 
 ## The injection
 
-`failure-injections/sprint2.md`. Delivered week 7 Monday.
+`failure-injections/sprint2.md`. Delivered week 7 the start of the week.
 
 Two participants withdraw. Chosen because it forces the question that separates real research from decorated opinion: was this finding actually traceable to a person, or was it assembled from a general impression and attributed afterwards.
 

@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Run a moderated usability study on five people
 - Write tasks that test the design rather than your instructions
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Rocket Surgery ch. 1–4 · Don't Make Me Think, testing chapter | R5.1 R5.2 — test plan, prototype to test |
-| **Tue** | Rocket Surgery ch. 5–6 | R5.3 — sessions 1 and 2 |
-| **Wed** | NNGroup severity ratings · Krug on fixing | R5.4 — sessions 3, 4, 5 |
-| **Thu** | Your own findings, read cold | R5.5 R5.6 — findings, severity, fix list · **critique** · **whiteboard why** |
-| **Fri** | (failure injection lands) | X2 P7.1 — post mortem, revised plan |
-| **Sat** | — | S8 system · F7 why session and teardown |
+| **1** | Rocket Surgery ch. 1–4 · Don't Make Me Think, testing chapter | R5.1 R5.2 — test plan, prototype to test |
+| **2** | Rocket Surgery ch. 5–6 | R5.3 — sessions 1 and 2 |
+| **3** | NNGroup severity ratings · Krug on fixing | R5.4 — sessions 3, 4, 5 |
+| **4** | Your own findings, read cold | R5.5 R5.6 — findings, severity, fix list · **critique** · **whiteboard why** |
+| **5** | (failure injection lands) | X2 P7.1 — post mortem, revised plan |
+| **6** | — | S8 system · F7 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -36,7 +36,7 @@
 
 **Read both NNGroup articles.** The second one qualifies the first, and knowing the qualification is what lets you survive the sample-size question in the defense. Five users find most problems *in one flow, for one user group, in formative testing*. Five users cannot give you a completion rate.
 
-→ **Commit** `students/UX{n}/week7/day1-learning.md`
+→ **Commit** `students/UX{n}/week7/session1-learning.md`
 
 ## DO — 2 hours
 
@@ -85,7 +85,7 @@
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 45 minutes
 
@@ -94,7 +94,7 @@
 | **Rocket Surgery Made Easy** | Ch. 5–6, on running the session and taking notes | 30 min |
 | **Your R4.2** | Your own interview self-critique. The same mistakes appear in usability testing. | 15 min |
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 3 hours
 
@@ -118,7 +118,7 @@
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 45 minutes
 
@@ -127,7 +127,7 @@
 | **NNGroup** | "Severity Ratings for Usability Problems" | 20 min |
 | **Rocket Surgery** | Ch. 7, on deciding what to fix | 25 min |
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 3 hours
 
@@ -140,7 +140,7 @@ By session 4 you will be able to predict what happens next. That prediction is a
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 45 minutes
 
@@ -148,7 +148,7 @@ Read all five sets of session notes cold, in one sitting, without your interpret
 
 Write three lines: what all five did the same, what only one did, and which of your week 6 interview findings the testing contradicted.
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique and whiteboard why)
 
@@ -185,7 +185,7 @@ Write three lines: what all five did the same, what only one did, and which of y
 
 → `students/UX{n}/week7/R5-6-fix-list.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Present three findings with their confidence levels. The critique focus: **is the confidence level honest, or is the finding you like most given more confidence than its denominator supports?**
 
 ### Whiteboard why — 15 minutes
@@ -193,11 +193,11 @@ No notes. Draw your research plan from memory, state your three questions, and a
 
 ---
 
-# Friday
+# the end of the week
 
 ## The failure injection lands
 
-The admin delivers the change this morning. In this sprint it is likely to be something that invalidates part of your research, not just your design. That is deliberate, and it is the most common thing that happens to real research.
+The admin delivers the change this study time. In this sprint it is likely to be something that invalidates part of your research, not just your design. That is deliberate, and it is the most common thing that happens to real research.
 
 ## DO — 2 hours
 
@@ -243,7 +243,7 @@ Being able to separate these two is the skill being tested.
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S8 — System, 90 minutes
 
@@ -263,7 +263,7 @@ Being able to separate these two is the skill being tested.
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] R5.1 through R5.6 — five sessions run

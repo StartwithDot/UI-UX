@@ -68,7 +68,7 @@ A designer who has been paying attention for 24 weeks has a long answer to that,
 
 ## The close
 
-**Sunday of week 24, per designer:**
+**before the week opens of week 24, per designer:**
 1. Final ledger entry, including the Sprint 6 trajectory call
 2. The honest conversation: their strongest capability, their real gap, and what a hiring manager will find
 3. What you would say in a reference, read to them, so they know

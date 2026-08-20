@@ -25,10 +25,10 @@ Everything in Sprint 6 follows from that sentence. Ninety seconds means the firs
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `02-week21.md` | Monday of week 21 |
-| 3 | `03-week22.md` | Monday of week 22 |
-| 4 | `04-week23.md` | Monday of week 23 |
-| 5 | `05-week24.md` | Monday of week 24 |
+| 2 | `02-week21.md` | when week 21 opens |
+| 3 | `03-week22.md` | when week 22 opens |
+| 4 | `04-week23.md` | when week 23 opens |
+| 5 | `05-week24.md` | when week 24 opens |
 
 References: `06-case-study-structure.md` — the structure and why each part exists. `07-interview-question-bank.md` — 150 real questions, with what the interviewer is actually testing.
 
@@ -81,7 +81,7 @@ References: `06-case-study-structure.md` — the structure and why each part exi
 
 ---
 
-## Before Monday
+## Before the start of the week
 
 - [ ] Read `06-case-study-structure.md`
 - [ ] Pull up all five projects and rank them honestly by strength of *evidence*, not by how they look

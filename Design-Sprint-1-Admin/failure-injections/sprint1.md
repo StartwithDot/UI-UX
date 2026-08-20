@@ -1,6 +1,6 @@
 # Sprint 1 Failure Injection
 
-**Sealed until week 3, Monday, 10:00. Do not preview. Do not soften. Do not delay.**
+**Sealed until week 3, the start of the week, 10:00. Do not preview. Do not soften. Do not delay.**
 
 ---
 
@@ -59,8 +59,8 @@ The fifth one is the most important. Under pressure, designers cut states and ev
 2. **Do not extend the deadline.** The ten days is inside the sprint on purpose.
 3. **Answer only what a real department would answer.** "Can we keep the fee after upload?" gets "Treasury requires payment first." Nothing more.
 4. **Say nothing about the refund question.** If nobody asks, that is the finding, and it goes in the ledger.
-5. **Watch what they cut.** Note it Wednesday. It is the single most informative observation of the sprint.
-6. **Debrief on Friday**, after post mortems are committed. Reveal it was designed, explain why these two changes, and read out what the cohort collectively protected and what it dropped.
+5. **Watch what they cut.** Note it mid week. It is the single most informative observation of the sprint.
+6. **Debrief on the end of the week**, after post mortems are committed. Reveal it was designed, explain why these two changes, and read out what the cohort collectively protected and what it dropped.
 
 ## The debrief script
 

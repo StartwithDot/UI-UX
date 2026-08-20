@@ -11,7 +11,7 @@ Read after `00-START-HERE.md`. This is the operating manual: your week, your rol
  └── 6 sprints × 4 weeks each
       └── each sprint: 1 client project, 1 defense at the end
            └── each week: 5 learn-then-do days + critique + session
-                └── each day: LEARN block, then DO block
+                └── each task: LEARN block, then DO block
 ```
 
 Nothing changes about this rhythm across 24 weeks. Only the content gets harder.
@@ -20,16 +20,16 @@ Nothing changes about this rhythm across 24 weeks. Only the content gets harder.
 
 ## 2. Your day
 
-Two blocks, every working day, Monday to Friday.
+Two blocks of work per study session, repeated through the week.
 
-### The LEARN block, 1 to 2 hours, mornings
+### The LEARN block, 1 to 2 hours
 
 Your week file (`02-week1.md` and so on) names exactly what to read or watch. Chapter numbers. Page ranges. Video titles with durations. Never "read about typography".
 
 At the end of the block, write a summary. It is short and it has a fixed shape:
 
 ```markdown
-# Week 1, Day 1 — Learning summary
+# Week 1, session 1 — Learning summary
 
 ## What I read or watched
 - Refactoring UI, "Hierarchy is Everything", pp. 27–52
@@ -43,19 +43,19 @@ At the end of the block, write a summary. It is short and it has a fixed shape:
 ## One thing I did not understand
 ...
 
-## Where I will use this today
+## Where I will use this
 ...
 ```
 
-Commit it to `students/UX{n}/week{n}/day{n}-learning.md`. Ten minutes. Not optional.
+Commit it to `students/UX{n}/week{n}/session{n}-learning.md`. Ten minutes. Not optional.
 
-### The DO block, 1 to 2 hours, afternoons
+### The DO block, 1 to 2 hours
 
 The task that uses what you just learned. Every task in this program gives you four things:
 
 | Part | What it means |
 |---|---|
-| **Learn first** | Which part of today's reading this task is built on |
+| **Learn first** | Which part of this week's reading this task is built on |
 | **Method** | The numbered steps. Not the answer, but the procedure. |
 | **Worked example** | What a correct answer looks like, for a different case |
 | **Done when** | The checklist that says you can stop |
@@ -67,21 +67,22 @@ If a task ever feels impossible, you skipped the LEARN block. Go back to it.
 ## 3. Your week
 
 ```
-MON            TUE            WED            THU            FRI            SAT
-learn + do     learn + do     learn + do     learn + do     learn + do     session
-                                             + critique     + gate check   90 min
-kickoff 15m                                  90 min                        no new work
+WEEK OPENS ──────────► WORK ──────────► CRITIQUE ──────► GATE ──────► WEEK CLOSES
+kickoff 15m            learn + do       90 min           check        session 90 min
+                       commit as        in-progress      what you     why session
+                       you finish       work shown       call done    + teardown
 ```
 
-**Monday, kickoff, 15 minutes.** Admin posts the week goal, names who holds which role, and says which gate applies. You read the week file for the whole week, then start Day 1.
+**Kickoff, 15 minutes.** Admin posts the week goal, names who holds which role, and says which gate applies. You read the week file end to end before you start.
 
-**Tuesday to Wednesday.** Learn, do, commit. Open a pull request as each task finishes, not at the end of the week.
+**Work.** Learn, do, commit. Open a pull request as each task finishes, not in one batch at the end.
 
-**Thursday, critique, 90 minutes.** Each designer presents in-progress work for 12 minutes. Run against the rubric in the sprint's `07-critique-guide.md`. The critique lead files the log the same day.
+**Critique, 90 minutes.** Each designer presents in-progress work for 12 minutes. Run against the rubric in the sprint's `07-critique-guide.md`. The critique lead files the log straight after.
 
-**Friday.** Address critique feedback, merge, run the gate on anything you are calling done.
+**Gate.** Address critique feedback, merge, run the gate on anything you are calling done.
 
-**Saturday, session, 90 minutes.** One designer presents the week's "why session". One teardown is discussed. No new sprint work happens on Saturday.
+**Week close session, 90 minutes.** One designer presents the week's "why session". One teardown is discussed. No new sprint work happens in this session.
+
 
 ---
 
@@ -91,7 +92,7 @@ Five designers. Two roles rotate every week, so across a 4-week sprint everyone 
 
 | Role | Who | Duty |
 |---|---|---|
-| **Critique lead** | 1 person, weekly | Runs Thursday critique against the rubric. Reviews every peer pull request. Files the critique log. |
+| **Critique lead** | 1 person, weekly | Runs the week's critique against the rubric. Reviews every peer pull request. Files the critique log. |
 | **System owner** | 1 person, weekly | Owns `system/` that week. Merges component contributions, keeps tokens and docs current, writes the changelog. |
 | **Builder** | The other 3 | Sprint tasks plus one contribution to `system/` or `delivery/` |
 
@@ -161,11 +162,11 @@ Any claim about users needs a source. Valid sources:
 
 ## 7. How you are assessed
 
-### Every day
+### Every task
 Learning summary committed. Task committed.
 
 ### Every week
-Critique log filed. Two peer reviews given, each with at least one substantive comment. Saturday artefact committed.
+Critique log filed. Two peer reviews given, each with at least one substantive comment. The week-close artefact committed.
 
 ### Week 3 of each sprint — Whiteboard why
 15 minutes. No notes, no files open. Draw your current flow from memory and answer three questions pulled at random from the sprint question bank.
@@ -226,7 +227,7 @@ File naming in Figma: `SPRINT-1 Practice UX3`, `SPRINT-1 System`, `SPRINT-1 Deli
 
 ---
 
-## 9. The daily git loop
+## 9. The git loop
 
 ```bash
 git checkout main
@@ -252,9 +253,9 @@ One task, one file, one commit, message starting with the task ID.
 
 | Situation | What happens |
 |---|---|
-| You open no pull request for a week | Admin messages you before Thursday. The question is what is blocking you, not why you are behind. |
+| You open no pull request for a week | Admin messages you before the week closes. The question is what is blocking you, not why you are behind. |
 | Critique becomes personal taste | Session stops, the rubric is read out loud, critique restarts. Every comment names a principle and a user cost. |
-| The shared system is blocked | Admin pairs with the system owner the same day. A blocked system blocks five people. |
+| The shared system is blocked | Admin pairs with the system owner straight away. A blocked system blocks five people. |
 | The cohort splits on a shared decision | New work stops. One session to decide. Decision recorded. Everyone released together. |
 | Everyone designs the same thing | Each designer gets a different constraint card for one round. Convergence in week 2 usually means nobody explored. |
 | You want to skip the accessibility gate to ship prettier work | The gate does not move. You run a screen reader over your own flow once and the argument ends. |
@@ -276,6 +277,6 @@ Two weeks sit outside the 24: one after Sprint 3, one after Sprint 6. They exist
 - Every designer held one rotating role
 - Every designer passed the defense or has a scheduled re-run
 - One post mortem per designer is committed
-- Every daily learning summary for the sprint is committed
+- Every learning summary for the sprint is committed
 
 Next: `02-Learning-Path.md`.

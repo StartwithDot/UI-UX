@@ -47,7 +47,7 @@ The whole 24 weeks on one page. Read it once so you know where you are going, th
 
 ## The four things that repeat every sprint
 
-**1. Learn then do, daily.** Named source in the morning, task in the afternoon, summary committed.
+**1. Learn then do.** Named source in the study time, task in the build time, summary committed.
 
 **2. A failure gets injected mid-sprint.** Around week 3. You do not know what it is until it lands. A constraint changes, a participant withdraws, a metric moves, a technical requirement is rejected. You write a post mortem: what changed, what it broke, what it cost you, and what earlier decision would have made it cheaper.
 
@@ -61,7 +61,7 @@ The whole 24 weeks on one page. Read it once so you know where you are going, th
 
 **The design system in `system/`.** Started in Sprint 1 week 1 with a type scale and a colour ramp. By Sprint 4 it is a real multi-brand token architecture with governance. By Sprint 6 it is handed to the next cohort. It is the same system the whole time, which means every shortcut you take in week 2 is still there in week 20. That is intentional.
 
-**Your fundamentals folder.** 120 daily drill entries, 24 learning weeks of summaries, 24 teardowns, 6 explainers, and every why session you presented. At the end this is the only complete record of what you learned, and it is what the final reflection round is built from.
+**Your fundamentals folder.** 120 drill entries, 24 learning weeks of summaries, 24 teardowns, 6 explainers, and every why session you presented. At the end this is the only complete record of what you learned, and it is what the final reflection round is built from.
 
 ---
 

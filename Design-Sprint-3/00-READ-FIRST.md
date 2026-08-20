@@ -25,11 +25,11 @@ It is chosen deliberately. Cancellation flows are where almost every company in 
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | before Monday |
-| 3 | `02-week9.md` | Monday of week 9 |
-| 4 | `03-week10.md` | Monday of week 10 |
-| 5 | `04-week11.md` | Monday of week 11 |
-| 6 | `05-week12.md` | Monday of week 12 |
+| 2 | `01-project-brief.md` | before the start of the week |
+| 3 | `02-week9.md` | when week 9 opens |
+| 4 | `03-week10.md` | when week 1 opens0 |
+| 5 | `04-week11.md` | when week 1 opens1 |
+| 6 | `05-week12.md` | when week 1 opens2 |
 
 Reference: `06-ethics-position.md` — the framework for the refusal task, and what a defensible line looks like.
 
@@ -87,7 +87,7 @@ The graded thing is not whether you refuse. It is whether your line is somewhere
 
 ---
 
-## Before Monday
+## Before the start of the week
 
 - [ ] Read `01-project-brief.md`
 - [ ] Read `06-ethics-position.md`

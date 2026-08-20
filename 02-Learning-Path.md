@@ -2,13 +2,13 @@
 
 The 24 weeks of learning, week by week. This is the answer to "what am I supposed to be learning right now".
 
-Every week has a topic, a named primary source, and the skill you should be able to demonstrate by Friday. The week files inside each sprint folder break this down to the day.
+Every week has a topic, a named primary source, and the skill you should be able to demonstrate by the end of the week. The week files inside each sprint folder break this down to the day.
 
 ---
 
 ## How to use this file
 
-- **Monday of every week:** read your row. Then open the week file for the details.
+- **At the start of every week:** read your row. Then open the week file for the details.
 - **Nothing is assigned that is not used.** If a book is in a row, a task that week needs it.
 - **Reading ahead is fine.** Reading instead of doing is not.
 
@@ -18,7 +18,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 1 · Weeks 1 to 4 · Visual craft and one complete flow
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 1 | Hierarchy, type scales, spacing scales, colour ramps | Refactoring UI (ch. 1–6) · Practical Typography · Figma Learn: Auto Layout, Components | Build a type scale, a spacing scale, and a colour ramp, and say why each step exists |
 | 2 | Forms, labels, validation, error messages, microcopy | Form Design Patterns (ch. 1–3) · Nielsen Norman error message articles | Design a multi-field form where every field has a label, a hint, and a stated validation rule |
@@ -31,7 +31,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 2 · Weeks 5 to 8 · Research and problem framing
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 5 | What research is for. Assumptions, risk, research plans | Just Enough Research (whole book, it is short) | Write a research plan that can fail, with a ranked assumption list |
 | 6 | Interviewing. Non-leading questions, silence, follow-ups | Interviewing Users (ch. 1–5) · Continuous Discovery Habits (ch. on interviewing) | Run a real interview and critique your own transcript honestly |
@@ -44,7 +44,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 3 · Weeks 9 to 12 · Product thinking and metrics
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 9 | Metrics that mean something. Funnels, activation, HEART | Google HEART paper · Lean Analytics (funnel chapters) · Escaping the Build Trap | Define activation with evidence, and map a funnel with real numbers |
 | 10 | Information architecture, labelling, tree testing | Information Architecture (navigation and labelling chapters) · Optimal Workshop guides | Propose an IA and validate it with a tree test |
@@ -57,7 +57,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 4 · Weeks 13 to 16 · Design systems and handoff
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 13 | What a design system actually is. Audit and inventory | Design Systems, Kholmatova (ch. 1–4) · IBM Carbon documentation | Audit an inconsistent product set and cost the divergence |
 | 14 | Tokens. Primitive, semantic, component. Theming | Design Tokens spec · Tokens Studio docs · Figma variables and modes docs | Build a three-layer token set that produces two brands and two themes |
@@ -70,7 +70,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 5 · Weeks 17 to 20 · Complex interfaces and AI
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 17 | Designing for experts. Density, keyboard-first, tables | Designing Interfaces (table and list chapters) · Carbon data table docs · Polaris index tables | Put 38 fields on one screen, scannable in 40 seconds, keyboard complete |
 | 18 | AI in interfaces. Confidence, explanation, trust calibration | Google People + AI Guidebook (whole) · Microsoft HAX Guidelines (all 18) | Present a model score so it informs without deciding, and defend the choice |
@@ -83,7 +83,7 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ## Sprint 6 · Weeks 21 to 24 · Ship, measure, and tell the story
 
-| Week | Topic | Primary source | You can do this by Friday |
+| Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
 | 21 | Discovery on your own. Baselines and instrumentation plans | PostHog docs (events and funnels) · your own Sprint 2 notes | Establish a real baseline number before you design anything |
 | 22 | Framing and scoping your own project | Shape Up · Continuous Discovery Habits (opportunity trees) | Write a problem statement and a metric set before opening Figma |
@@ -94,9 +94,9 @@ Primary sources are listed by short name. Full details, cost, and where to get t
 
 ---
 
-## The daily learning summary
+## The learning summary
 
-Every day, after the LEARN block, ten minutes:
+After each LEARN block, ten minutes:
 
 ```markdown
 # Week {n}, Day {n} — Learning summary
@@ -110,10 +110,10 @@ Every day, after the LEARN block, ten minutes:
 3.
 
 ## One thing I did not understand
-## Where I will use this today
+## Where I will use this
 ```
 
-Commit to `students/UX{n}/week{n}/day{n}-learning.md`.
+Commit to `students/UX{n}/week{n}/session{n}-learning.md`.
 
 **Why this matters more than it looks.** At the end of the sprint you sit a defense where you are asked what you know. The only reliable preparation is 20 of these files in your own words. Notes you did not write are notes you do not have.
 
@@ -121,7 +121,7 @@ Commit to `students/UX{n}/week{n}/day{n}-learning.md`.
 
 ## The weekly why session
 
-Saturdays, 90 minutes. One designer presents the week's fundamentals topic to the other four, using the cohort's own work as the examples, never textbook diagrams.
+Ninety minutes at the close of each week. One designer presents the week's fundamentals topic to the other four, using the cohort's own work as the examples, never textbook diagrams.
 
 Rotates so everyone presents four to five times across the program. Committed to `fundamentals/why-sessions/week{nn}-{topic}.md`.
 
@@ -151,16 +151,16 @@ Subjects are drawn from products with real constraints: government service porta
 
 ## The drill
 
-Ten minutes a day, every day, all 24 weeks.
+Ten minutes per session, all 24 weeks.
 
 Pick one component from any real product. Rebuild it from memory in Figma. Then open the real one and compare. Log one line.
 
 ```
-Day 14 — Razorpay payment method selector. Missed that the selected state
+Session 14 — Razorpay payment method selector. Missed that the selected state
 uses a border plus a check, not just a fill. Overestimated the padding.
 ```
 
-Committed to `fundamentals/drills/UX{n}-log.md`, appended daily.
+Committed to `fundamentals/drills/UX{n}-log.md`, appended as you go.
 
 Ten minutes × 120 days is 20 hours of pure visual observation. Nothing else in the program builds an eye faster.
 

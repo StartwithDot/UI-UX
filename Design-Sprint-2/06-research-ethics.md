@@ -89,7 +89,7 @@ It will happen. Someone will tell you the centre coordinator asked for money, or
 - Record it if it is within consent
 - Do not investigate it, you are not equipped to and it is not your role
 - Do not name the person to the client
-- Raise it with the core admin privately, the same day
+- Raise it with the core admin privately, straight away
 - If it is a safeguarding matter, the admin decides the escalation, not you
 
 ## 8. The consent script

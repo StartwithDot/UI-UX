@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Draw a state machine for a real system and name every transition and guard
 - Specify feedback for every action based on its actual latency
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | About Face on interaction and posture · state machine basics | I1.1 — subscription state machine |
-| **Tue** | NNGroup response times · optimistic UI patterns | I1.2 I1.3 — latency plan, feedback design |
-| **Wed** | About Face on undo and error tolerance | I1.4 — undo, confirm, and irreversibility |
-| **Thu** | Polaris and Material on interaction states | I1.5 C10.1 — transition inventory, hi-fi states · **critique** |
-| **Fri** | Microcopy references | C10.2 P9.1 — state-change copy, interaction principles |
-| **Sat** | — | S11 system · F9 why session and teardown |
+| **1** | About Face on interaction and posture · state machine basics | I1.1 — subscription state machine |
+| **2** | NNGroup response times · optimistic UI patterns | I1.2 I1.3 — latency plan, feedback design |
+| **3** | About Face on undo and error tolerance | I1.4 — undo, confirm, and irreversibility |
+| **4** | Polaris and Material on interaction states | I1.5 C10.1 — transition inventory, hi-fi states · **critique** |
+| **5** | Microcopy references | C10.2 P9.1 — state-change copy, interaction principles |
+| **6** | — | S11 system · F9 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -36,7 +36,7 @@
 
 **What to take:** most interfaces are designed as a set of screens, and the bugs live in the transitions between them. A state machine forces you to name every state, every event, and every guard — and it makes the impossible states visible before they get built.
 
-→ **Commit** `students/UX{n}/week9/day1-learning.md`
+→ **Commit** `students/UX{n}/week9/session1-learning.md`
 
 ## DO — 2 hours
 
@@ -79,7 +79,7 @@ Note that `CancelPending` exists as its own state. Most designs skip it, and tha
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 75 minutes
 
@@ -89,7 +89,7 @@ Note that `CancelPending` exists as its own state. Most designs skip it, and tha
 | **Material 3** | The motion and feedback guidance on communicating status | 25 min |
 | **web.dev** | "Optimistic UI patterns" or an equivalent article on optimistic updates and rollback | 25 min |
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -139,7 +139,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 60 minutes
 
@@ -150,7 +150,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 
 **What to take:** undo is almost always better than a confirmation dialog, because a confirmation interrupts everyone to protect the few who made a mistake, and people click through them without reading. Reserve confirmations for the genuinely irreversible.
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
@@ -185,7 +185,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 60 minutes
 
@@ -195,7 +195,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 | **Material 3** | The state layers documentation — how hover, focus, pressed, and dragged compose | 25 min |
 | **Your I1.1** | Your own state machine, checked against your I1.3 feedback list for gaps | 15 min |
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -223,12 +223,12 @@ Sprint 1 rules still apply: focus indicators at 3:1, disabled states still measu
 
 → `students/UX{n}/week9/C10-1-interaction-states.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Present your state machine and your cancellation confirmation. The critique focus: **is there any state the user can reach where they cannot tell what state they are in?**
 
 ---
 
-# Friday
+# the end of the week
 
 ## LEARN — 45 minutes
 
@@ -237,7 +237,7 @@ Present your state machine and your cancellation confirmation. The critique focu
 | **Nicely Said** or **Strunk & White** | The chapter on writing plainly and cutting words | 25 min |
 | **Mailchimp Content Style Guide** | The voice and tone section, free online | 20 min |
 
-→ **Commit** `day5-learning.md`
+→ **Commit** `session5-learning.md`
 
 ## DO — 2 hours
 
@@ -287,7 +287,7 @@ Write five principles you will hold for the rest of this sprint. Each must be sp
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S11 — System, 90 minutes
 
@@ -307,7 +307,7 @@ Write five principles you will hold for the rest of this sprint. Each must be sp
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] I1.1 through I1.5

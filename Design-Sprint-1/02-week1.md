@@ -2,11 +2,11 @@
 
 **Sprint 1 · Week 1 of 4 · Theme: understand the problem and build your visual foundations**
 
-Read this whole file on Monday morning before you start. Then work one day at a time.
+Read this whole file before you start. Then work one task at a time.
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Turn a vague client request into a problem statement with a metric attached
 - Audit a live service and name what is wrong using named heuristics, not opinions
@@ -21,18 +21,18 @@ That is deliberate. This week is understanding plus foundations. Screens start i
 
 ## The week at a glance
 
-| Day | LEARN (morning) | DO (afternoon) |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Refactoring UI ch. 1–2 · Figma Learn: Auto Layout | P1.1 P1.2 — reframe the brief |
-| **Tue** | Nielsen's 10 heuristics · WCAG 2.2 AA skim | R1.1 R1.2 R1.3 — audit the live service |
-| **Wed** | Practical Typography · Refactoring UI ch. 3 (type) | C1.1 C1.2 C1.3 — type and spacing scales |
-| **Thu** | Refactoring UI ch. 4 (colour) · Leonardo docs | C2.1 C2.2 — colour system · **critique 90 min** |
-| **Fri** | Refactoring UI ch. 5–6 (hierarchy, depth) | C1.4 P1.3 P1.4 — greyscale hierarchy, constraints, metrics |
-| **Sat** | — | S1 cohort session · F1 why session and teardown |
+| **1** | Refactoring UI ch. 1–2 · Figma Learn: Auto Layout | P1.1 P1.2 — reframe the brief |
+| **2** | Nielsen's 10 heuristics · WCAG 2.2 AA skim | R1.1 R1.2 R1.3 — audit the live service |
+| **3** | Practical Typography · Refactoring UI ch. 3 (type) | C1.1 C1.2 C1.3 — type and spacing scales |
+| **4** | Refactoring UI ch. 4 (colour) · Leonardo docs | C2.1 C2.2 — colour system · **critique 90 min** |
+| **5** | Refactoring UI ch. 5–6 (hierarchy, depth) | C1.4 P1.3 P1.4 — greyscale hierarchy, constraints, metrics |
+| **6** | — | S1 cohort session · F1 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -45,7 +45,7 @@ That is deliberate. This week is understanding plus foundations. Screens start i
 
 **What to take from Refactoring UI ch. 1–2:** start with too much white space and remove it, not the other way round. Hierarchy is created by size, weight, and colour together, and using all three at once is usually wrong. De-emphasising is as powerful as emphasising.
 
-→ **Commit** `students/UX{n}/week1/day1-learning.md` using the summary template in root `02-Learning-Path.md`.
+→ **Commit** `students/UX{n}/week1/session1-learning.md` using the summary template in root `02-Learning-Path.md`.
 
 ## DO — 90 minutes
 
@@ -65,7 +65,7 @@ The department's brief is: *"make it so people stop coming to the counter."*
 
 > **Question:** What percentage of returns are because the item was wrong versus because the customer changed their mind?
 > **Who could answer:** Support team lead, from the returns reason field in the admin tool.
-> **How long:** One afternoon, if the field is mandatory. Two weeks if it is free text and has to be coded.
+> **How long:** One build time, if the field is mandatory. Two weeks if it is free text and has to be coded.
 > **Why it changes the design:** If most returns are "wrong item", the fix is in the product page, not the returns flow.
 
 **Done when**
@@ -103,7 +103,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 90 minutes
 
@@ -116,7 +116,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 
 **What you need out of the heuristics:** the name, and one sentence on what it costs a user when it is violated. "Visibility of system status" is not a phrase to recite, it is the reason a person taps a button four times when nothing appears to happen.
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -139,7 +139,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 
 ### R1.2 — Heuristic evaluation
 
-**Learn first:** the 10 heuristics you read this morning.
+**Learn first:** the 10 heuristics you read this study time.
 
 **Method**
 1. Go through your screenshots one at a time.
@@ -168,7 +168,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### R1.3 — Accessibility audit
 
-**Learn first:** the WCAG AA criteria you skimmed this morning. You do not need all of them, you need the six below.
+**Learn first:** the WCAG AA criteria you skimmed this study time. You do not need all of them, you need the six below.
 
 **Method**
 1. **Keyboard only.** Unplug your mouse or do not touch the trackpad. Try to complete the flow with Tab, Shift+Tab, Enter, and Space. Note where you get stuck.
@@ -195,7 +195,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 90 minutes
 
@@ -207,7 +207,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 **What you need out of this:** a scale is a small fixed set of sizes chosen on purpose, so you never again pick a font size by eye. The reason is consistency and speed of decision, not mathematical beauty.
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
@@ -292,7 +292,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 90 minutes
 
@@ -305,7 +305,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 **What you need out of this:** you need more greys than you think, roughly nine. You need fewer accent colours than you think. And a colour must be chosen for a role — "error text" — not for a hue.
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -339,7 +339,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### C2.2 — Map colours to roles
 
-**Learn first:** the Material 3 colour roles page from this morning.
+**Learn first:** the Material 3 colour roles page from this study time.
 
 **Method**
 1. Fill in every role below with a token from C2.1, never a raw hex.
@@ -357,15 +357,15 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 → `students/UX{n}/week1/C2-2-semantic-roles.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 
 Present for 12 minutes: your problem statement, your three worst audit findings, and your type and colour scales. Run against `07-critique-guide.md`.
 
-The critique lead files the log the same day.
+The critique lead files the log straight after.
 
 ---
 
-# Friday
+# the end of the week
 
 ## LEARN — 60 minutes
 
@@ -374,7 +374,7 @@ The critique lead files the log the same day.
 | **Refactoring UI** | Ch. 5 "Layout and Spacing" and Ch. 6 "Designing Text" | 40 min |
 | **Refactoring UI** | The greyscale section — designing without colour first | 20 min |
 
-→ **Commit** `day5-learning.md`
+→ **Commit** `session5-learning.md`
 
 ## DO — 2 hours
 
@@ -404,7 +404,7 @@ The critique lead files the log the same day.
 
 **Method**
 1. List every constraint stated in `01-project-brief.md`.
-2. Add at least three you found yourself while using the live service on Tuesday.
+2. Add at least three you found yourself while using the live service on early in the week.
 3. Mark each as: **fixed policy** (a rule you cannot change) · **technical** (current implementation, could change with effort) · **assumed** (nobody has actually verified it).
 4. The assumed ones are the ones worth attacking in week 2.
 
@@ -450,7 +450,7 @@ The critique lead files the log the same day.
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S1 — The shared system, cohort session, 90 minutes
 
@@ -482,12 +482,12 @@ Set up the library with the agreed variables. Light mode only this week. Post th
 **F1.2 — Teardown: IRCTC ticket booking.** Use the five-part format from root `02-Learning-Path.md`.
 → `fundamentals/teardowns/01-irctc.md`
 
-**F1.3 — Drill, daily from today.** Ten minutes. Rebuild one component from any real Indian product from memory, then compare. One line in the log.
+**F1.3 — Drill, from now on.** Ten minutes. Rebuild one component from any real Indian product from memory, then compare. One line in the log.
 → `fundamentals/drills/UX{n}-log.md`
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries: `day1` to `day5`
 - [ ] P1.1, P1.2, P1.3, P1.4
@@ -496,7 +496,7 @@ Set up the library with the agreed variables. Light mode only this week. Post th
 - [ ] C2.1, C2.2
 - [ ] Two peer reviews given, each with one substantive comment
 - [ ] Critique attended, log filed if you were lead
-- [ ] Saturday: S1 session done, teardown committed, drill log started
+- [ ] the cohort review: S1 session done, teardown committed, drill log started
 
 **If you are short on time, cut in this order:** C1.3, then C1.4. Never cut R1.2, R1.3, or the learning summaries. Craft can be polished later. Audit findings and understanding cannot be retrofitted.
 

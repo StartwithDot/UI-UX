@@ -8,7 +8,7 @@ This file tells you what to read, in what order, and what to do in your first th
 
 ## 1. The one rule of this program
 
-**You learn a thing, then you use it the same day, then you write down what you learned.**
+**You learn a thing, then you use it straight away, then you write down what you learned.**
 
 Not: read for three weeks then design. Not: design for three weeks then read.
 
@@ -33,15 +33,15 @@ Do not jump ahead. Each one assumes the one before it.
 |---|---|---|---|
 | 1 | `00-START-HERE.md` | 15 min | This file. Where everything is. |
 | 2 | `01-How-The-Program-Works.md` | 30 min | The week rhythm, the roles, the gates, the defense. |
-| 3 | `02-Learning-Path.md` | 20 min | The full 24 weeks of learning, week by week. Skim it now, return to it every Monday. |
+| 3 | `02-Learning-Path.md` | 20 min | The full 24 weeks of learning, week by week. Skim it now, return to it at the start of every week. |
 | 4 | `03-Books-And-Resources.md` | 20 min | What to buy, what to borrow, what is free. Buy the Sprint 1 books this week. |
-| 5 | `04-Tools-Setup.md` | 1 hour | Install everything. Do this before day one. |
+| 5 | `04-Tools-Setup.md` | 1 hour | Install everything. Do this before the sprint starts. |
 | 6 | `05-The-Six-Sprints.md` | 10 min | The map of all 24 weeks in one page. |
 | 7 | `Design-Sprint-1/00-READ-FIRST.md` | 15 min | Your current sprint. |
 | 8 | `Design-Sprint-1/01-project-brief.md` | 30 min | The client and the users you are designing for. |
-| 9 | `Design-Sprint-1/02-week1.md` | 20 min | Your first week, day by day. Start here on Monday. |
+| 9 | `Design-Sprint-1/02-week1.md` | 20 min | Your first week, step by step. Start here when week 1 opens. |
 
-Total: about 3 hours 40 minutes. Do it across two evenings before the sprint starts.
+Total: about 3 hours 40 minutes. Do all of it before the sprint starts.
 
 ---
 
@@ -100,9 +100,9 @@ Do these in order. Tick them off.
 - [ ] Buy or borrow the Sprint 1 books listed in `03-Books-And-Resources.md`
 - [ ] Bookmark the free resources listed there
 - [ ] Read `Design-Sprint-1/01-project-brief.md`
-- [ ] Open `Design-Sprint-1/02-week1.md` and read Day 1 only
+- [ ] Open `Design-Sprint-1/02-week1.md` and read The first task only
 
-Then stop. Do not start designing. Week 1 Day 1 begins with reading, not with Figma.
+Then stop. Do not start designing. Week 1 The first task begins with reading, not with Figma.
 
 ---
 
@@ -112,7 +112,7 @@ Everything you produce is committed to git. Nothing lives only in Figma, and not
 
 | What you make | Where it goes |
 |---|---|
-| Learning summary, daily | `students/UX{n}/week{n}/day{n}-learning.md` |
+| Learning summary | `students/UX{n}/week{n}/session{n}-learning.md` |
 | Task output | `students/UX{n}/week{n}/{TASK-ID}-{name}.md` |
 | Figma screens | Figma is the canvas. Commit the link plus an exported PNG. |
 | Anything shared by the cohort | `system/` or `delivery/` |
@@ -128,8 +128,8 @@ Everything you produce is committed to git. Nothing lives only in Figma, and not
 |---|---|
 | Learning blocks, 5 days | 6 to 8 |
 | Doing blocks, 5 days | 6 to 8 |
-| Thursday critique | 1.5 |
-| Saturday session | 1.5 |
+| the week's critique | 1.5 |
+| the cohort review session | 1.5 |
 | **Total** | **15 to 19** |
 
 If you are consistently over 20 hours, tell the admin. Something in the week is mis-sized and it gets fixed for everyone, not just for you.
@@ -138,11 +138,11 @@ If you are consistently over 20 hours, tell the admin. Something in the week is 
 
 ## 7. Three things that will make you fail
 
-**Skipping the learning block.** The task will take you four hours instead of one, and the result will be a guess. Every task in this program is written assuming you did the reading that morning.
+**Skipping the learning block.** The task will take you four hours instead of one, and the result will be a guess. Every task in this program is written assuming you did the reading that study time.
 
 **Not committing the learning summary.** It is 10 minutes of writing. It is also the only proof that you understood something, and it is what you will read back before the defense at the end of the sprint.
 
-**Waiting until Friday.** Work is committed daily. A Friday dump cannot be reviewed, cannot be critiqued on Thursday, and teaches you nothing about working in the open.
+**Saving everything for one big push.** Work is committed as you finish each task. A single end of week dump cannot be reviewed, cannot be critiqued, and teaches you nothing about working in the open.
 
 ---
 
@@ -153,7 +153,7 @@ If you are consistently over 20 hours, tell the admin. Something in the week is 
 | I do not understand the task | Post in the cohort channel. Someone else has the same question. |
 | I cannot get a tool working | `04-Tools-Setup.md` first, then the channel |
 | I do not have the book | Admin. There is a shared copy or a free alternative for everything. |
-| I am stuck on a design decision | Bring it to Thursday critique. That is what it is for. |
-| I am behind | Tell the admin on Monday, not on Friday. |
+| I am stuck on a design decision | Bring it to the week's critique. That is what it is for. |
+| I am behind | Tell the admin at the start of the week, not on the end of the week. |
 
 Now open `01-How-The-Program-Works.md`.

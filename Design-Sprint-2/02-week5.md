@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - List your assumptions and rank them by what it would cost to be wrong
 - Choose a research method because it answers your question, not because it is familiar
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | Just Enough Research ch. 1–3 | R3.1 R3.2 — assumption list, risk ranking |
-| **Tue** | Just Enough Research ch. 4–5 · NNGroup on method choice | R3.3 — research plan |
-| **Wed** | `06-research-ethics.md` · consent and minors | R3.4 R3.5 — consent form, recruitment |
-| **Thu** | Just Enough Research ch. 6 · Interviewing Users ch. 1 | R3.6 P5.1 — discussion guide, stakeholder map · **critique** |
-| **Fri** | NNGroup on analytics as a research input | R3.7 P5.2 — desk research, reframed brief |
-| **Sat** | — | S6 system contribution · F5 why session and teardown |
+| **1** | Just Enough Research ch. 1–3 | R3.1 R3.2 — assumption list, risk ranking |
+| **2** | Just Enough Research ch. 4–5 · NNGroup on method choice | R3.3 — research plan |
+| **3** | `06-research-ethics.md` · consent and minors | R3.4 R3.5 — consent form, recruitment |
+| **4** | Just Enough Research ch. 6 · Interviewing Users ch. 1 | R3.6 P5.1 — discussion guide, stakeholder map · **critique** |
+| **5** | NNGroup on analytics as a research input | R3.7 P5.2 — desk research, reframed brief |
+| **6** | — | S6 system contribution · F5 why session and teardown |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -36,7 +36,7 @@
 
 **What to take from Hall:** research is not a phase, it is how you reduce the risk of building the wrong thing. The most common failure is not doing too little research, it is doing research that could not have changed anyone's mind.
 
-→ **Commit** `students/UX{n}/week5/day1-learning.md`
+→ **Commit** `students/UX{n}/week5/session1-learning.md`
 
 ## DO — 90 minutes
 
@@ -87,7 +87,7 @@
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 90 minutes
 
@@ -99,7 +99,7 @@
 
 **What to take:** qualitative tells you *why* and *how*, in small numbers. Quantitative tells you *how many* and *how often*, in large numbers. Choosing the wrong one is the most expensive mistake in research planning, because you find out at the end.
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -137,7 +137,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 75 minutes
 
@@ -149,7 +149,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 **Why this is a whole learning block:** this sprint involves students. Some participants may be under 18. Consent from a minor is not sufficient, recording a minor has different rules, and "it is only for a design project" is not an exemption.
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
@@ -191,7 +191,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 75 minutes
 
@@ -201,7 +201,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 | **Interviewing Users**, Portigal | Ch. 1, on why interviewing is harder than it looks | 30 min |
 | **Your R3.3** | Re-read your three questions before writing the guide | 15 min |
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -249,12 +249,12 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 → `students/UX{n}/week5/P5-1-stakeholders.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Present your research plan. The critique question is not "is this nice", it is **"could this plan produce a result that surprises you?"** If not, it is confirmation, not research.
 
 ---
 
-# Friday
+# the end of the week
 
 ## LEARN — 60 minutes
 
@@ -263,7 +263,7 @@ Present your research plan. The critique question is not "is this nice", it is *
 | **NNGroup** | "Analytics and User Experience" and "Funnel Analysis" | 30 min |
 | **Just Enough Research** | Ch. 7, on evaluative research, as preparation for week 7 | 30 min |
 
-→ **Commit** `day5-learning.md`
+→ **Commit** `session5-learning.md`
 
 ## DO — 90 minutes
 
@@ -301,7 +301,7 @@ Present your research plan. The critique question is not "is this nice", it is *
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S6 — System, 90 minutes
 
@@ -322,11 +322,11 @@ The Sprint 1 system carries forward. This week it needs the components a researc
 **F5.2 — Teardown:** a state government scholarship or benefit portal, other than the one in the brief.
 → `fundamentals/teardowns/05-benefit-portal.md`
 
-**F5.3 — Drill continues.** Day 21 onward.
+**F5.3 — Drill continues.** Session 21 onward.
 
 ---
 
-## Friday checklist
+## End of week checklist
 
 - [ ] 5 learning summaries
 - [ ] R3.1 through R3.7
@@ -335,6 +335,6 @@ The Sprint 1 system carries forward. This week it needs the components a researc
 - [ ] Consent forms ready, including the minor version
 - [ ] Critique attended
 
-**Do not enter week 6 without confirmed participants.** Everything in weeks 6 to 8 depends on it. If you are not scheduled by Friday, tell the admin on Friday, not on Monday.
+**Do not enter week 6 without confirmed participants.** Everything in weeks 6 to 8 depends on it. If you are not scheduled by the end of the week, tell the admin on the end of the week, not at the start of the week.
 
 Next: `03-week6.md`

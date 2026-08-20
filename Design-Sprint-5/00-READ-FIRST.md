@@ -34,10 +34,10 @@ You choose from three. The choice itself is graded, because choosing a project y
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
 | 2 | `01-project-options.md` | before week 17 — you must choose and get approval |
-| 3 | `02-week17.md` | Monday of week 17 |
-| 4 | `03-week18.md` | Monday of week 18 |
-| 5 | `04-week19.md` | Monday of week 19 |
-| 6 | `05-week20.md` | Monday of week 20 |
+| 3 | `02-week17.md` | when week 1 opens7 |
+| 4 | `03-week18.md` | when week 1 opens8 |
+| 5 | `04-week19.md` | when week 1 opens9 |
+| 6 | `05-week20.md` | when week 20 opens |
 
 Reference: `06-capstone-rubric.md` — exactly how this is graded. Read it in week 17, not in week 20.
 

@@ -31,15 +31,15 @@ At 5 designers one person can hold core admin and reviewer. Above 8 designers, s
 
 ## The weekly rhythm
 
-| Day | Admin action | Time |
+| Step | Admin action | Time |
 |---|---|---|
-| Mon | Post the week goal, assign positions from the rotation log, assign the teardown subject | 30 min |
-| Tue | Nothing. Let them work. | 0 |
-| Wed | Read open pull requests, comment on the two weakest | 60 min |
-| Thu | Sit in critique. Do not lead it. Note what the critique lead misses. | 90 min |
-| Fri | Approve system merges, run the gate on one deliverable at random, close the rotation log | 90 min |
-| Sat | Sit in the spine session. Ask one question the presenter did not prepare for. | 60 min |
-| Sun | Update the ledger, write next week's goal | 45 min |
+| **1** | Post the week goal, assign positions from the rotation log, assign the teardown subject | 30 min |
+| **2** | Nothing. Let them work. | 0 |
+| **3** | Read open pull requests, comment on the two weakest | 60 min |
+| **4** | Sit in critique. Do not lead it. Note what the critique lead misses. | 90 min |
+| **5** | Approve system merges, run the gate on one deliverable at random, close the rotation log | 90 min |
+| **6** | Sit in the spine session. Ask one question the presenter did not prepare for. | 60 min |
+| **7** | Update the ledger, write next week's goal | 45 min |
 
 ## The non negotiables
 
@@ -55,9 +55,9 @@ At 5 designers one person can hold core admin and reviewer. Above 8 designers, s
 |---|---|
 | Project | Aadhaar address update flow |
 | Designers | 5, UX1 to UX5 |
-| Injected failure | Week 3, Monday. Sealed in `failure-injections/sprint1.md`. |
+| Injected failure | Week 3, the start of the week. Sealed in `failure-injections/sprint1.md`. |
 | Milestone stations | P1 reframe, S1 foundations, R2 test, S4 gate and handoff |
-| Defense | Week 4 Saturday, 55 minutes per designer |
+| Defense | Week 4 the cohort review, 55 minutes per designer |
 | The failure to expect | Designers who make it look good and cannot say why. The numbers round catches this in eight minutes. |
 
 ## The ledger

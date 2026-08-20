@@ -17,15 +17,15 @@ Not a concept. Not three pretty screens. A complete, defensible flow.
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | now, before Monday |
-| 3 | `02-week1.md` | Monday of week 1 |
-| 4 | `03-week2.md` | Monday of week 2 |
-| 5 | `04-week3.md` | Monday of week 3 |
-| 6 | `05-week4.md` | Monday of week 4 |
+| 2 | `01-project-brief.md` | now, before the start of the week |
+| 3 | `02-week1.md` | when week 1 opens |
+| 4 | `03-week2.md` | when week 2 opens |
+| 5 | `04-week3.md` | when week 3 opens |
+| 6 | `05-week4.md` | when week 4 opens |
 
 Reference, open when a task points at them:
 - `06-accessibility-gate.md` — the checklist that decides whether you shipped
-- `07-critique-guide.md` — how Thursday critique works and what a valid comment is
+- `07-critique-guide.md` — how the week's critique works and what a valid comment is
 - `08-glossary.md` — every term used in this sprint, defined plainly
 
 ---
@@ -41,11 +41,11 @@ Reference, open when a task points at them:
 
 ---
 
-## Every day
+## Every task
 
 ```
-MORNING    LEARN     1 to 2 h    named source, then a committed summary
-AFTERNOON  DO        1 to 2 h    a task built on that morning's reading
+STUDY    LEARN     1 to 2 h    named source, then a committed summary
+BUILD  DO        1 to 2 h    a task built on that study time's reading
 ```
 
 Week files give you the exact chapter, the exact page range, the exact video. Never "read about typography".
@@ -54,7 +54,7 @@ Every task in this sprint has four parts:
 
 | Part | What it gives you |
 |---|---|
-| **Learn first** | Which part of the morning's reading this uses |
+| **Learn first** | Which part of the study time's reading this uses |
 | **Method** | Numbered steps. The procedure, not the answer. |
 | **Worked example** | A correct answer for a different case, so you know the shape |
 | **Done when** | The checklist that says you can stop |
@@ -65,11 +65,11 @@ Every task in this sprint has four parts:
 
 ```
 students/UX{n}/week1/
-  day1-learning.md          ← every day
-  day2-learning.md
-  day3-learning.md
-  day4-learning.md
-  day5-learning.md
+  session1-learning.md          ← one per session
+  session2-learning.md
+  session3-learning.md
+  session4-learning.md
+  session5-learning.md
   P1-1-brief-questions.md   ← task outputs, task ID first
   C1-1-type-scale.md
   ...
@@ -102,14 +102,14 @@ The **system owner** for the week merges contributions. That role rotates.
 - A handoff spec an engineer could build from
 - One decision record for the choice a department official would question
 - One post mortem on the mid-sprint failure
-- 20 daily learning summaries
+- 20 learning summaries
 - A passed defense
 
 ---
 
 ## What will be hard, and it is meant to be
 
-**The brief is deliberately bad.** "Make it so people stop coming to the counter." Week 1 is about turning it into something answerable. If you start designing screens on day 1 you will design the wrong thing.
+**The brief is deliberately bad.** "Make it so people stop coming to the counter." Week 1 is about turning it into something answerable. If you start designing screens on the first task you will design the wrong thing.
 
 **You cannot invent users.** Three real users are described in the brief, each with a different failure mode. You design for all three, not the easiest one.
 
@@ -119,7 +119,7 @@ The **system owner** for the week merges contributions. That role rotates.
 
 ---
 
-## Before Monday
+## Before the start of the week
 
 - [ ] Read `01-project-brief.md`
 - [ ] Have Refactoring UI downloaded
@@ -128,4 +128,4 @@ The **system owner** for the week merges contributions. That role rotates.
 - [ ] Repo forked and cloned
 - [ ] Use the live service at `myaadhaar.uidai.gov.in` once, on your phone, with your own Aadhaar. Do not use anyone else's.
 
-Then open `02-week1.md` on Monday morning.
+Then open `02-week1.md`.

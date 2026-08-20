@@ -34,9 +34,9 @@ Engineering rejects the token naming format and requires a different one. Chosen
 
 **The handoff round changes character.** The engineer is now a system consumer:
 
-> "I need a component you do not have. My deadline is Friday. Your governance process takes two weeks. What do I do."
+> "I need a component you do not have. My deadline is the end of the week. Your governance process takes two weeks. What do I do."
 
-The correct answer has an escape path in the governance model already, because a system with no escape path gets forked on the first Friday deadline, and every real system needs a documented way to build something locally and contribute it back later. A designer who says "follow the process" has designed a system that will be bypassed.
+The correct answer has an escape path in the governance model already, because a system with no escape path gets forked on the first the end of the week deadline, and every real system needs a documented way to build something locally and contribute it back later. A designer who says "follow the process" has designed a system that will be bypassed.
 
 **Numbers round additions:** how many tokens in each layer, what a component contribution requires before merge, the ARIA role of their most complex component, how many greys the client had, what their own cohort's drift count was.
 

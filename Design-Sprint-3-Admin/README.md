@@ -20,7 +20,7 @@ The question that lands: "which of these would you cut if you had four weeks ins
 
 The driver strategy in P10.3 is the sprint's real design problem and the answer that keeps appearing is "an app for drivers", which fails on a 40MB budget and prepaid data. The designers who get somewhere are the ones who consider WhatsApp, SMS, IVR, or the owner entering it, and who state what each costs in data quality.
 
-**Week 11.** The ethics decision arrives Monday. Do not preview which of the four requests it will be.
+**Week 11.** The ethics decision arrives the start of the week. Do not preview which of the four requests it will be.
 
 What you are grading is not the answer, it is the structure of the reasoning: the number, the user cost, the regulatory position, the decision, the alternative. A refusal with no alternative scores the same as compliance with no argument, because both leave the client with the problem and neither is a design contribution.
 

@@ -12,7 +12,7 @@ If you have a limited budget, this is the order.
 
 | # | Book | Author | Needed by | Roughly |
 |---|---|---|---|---|
-| 1 | **Refactoring UI** | Wathan & Schoger | Week 1, day 1 | $99 digital |
+| 1 | **Refactoring UI** | Wathan & Schoger | Week 1, the first task | $99 digital |
 | 2 | **Form Design Patterns** | Adam Silver | Week 2 | £25 ebook |
 | 3 | **Just Enough Research** | Erika Hall | Week 5 | $20 |
 | 4 | **Design Systems** | Alla Kholmatova | Week 13 | $39 |
@@ -111,7 +111,7 @@ You will use these more than the books.
 
 ## 4. What you read, week by week
 
-Pull this into your Monday planning. The week file gives the exact pages.
+Pull this into your the start of the week planning. The week file gives the exact pages.
 
 | Weeks | Read this |
 |---|---|

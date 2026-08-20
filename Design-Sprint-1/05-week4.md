@@ -4,7 +4,7 @@
 
 ---
 
-## By Friday you can
+## By the end of this week you can
 
 - Run a WCAG AA accessibility gate on your own work with evidence on every line
 - Use a screen reader on your own design and fix what you hear
@@ -13,18 +13,18 @@
 
 ## The week at a glance
 
-| Day | LEARN | DO |
+| Step | LEARN | DO |
 |---|---|---|
-| **Mon** | WCAG 2.2 AA, the 12 criteria that matter here | C7.1 C7.2 — keyboard and focus, contrast pass |
-| **Tue** | web.dev Learn Accessibility · Deque screen reader module | C7.3 C7.4 — screen reader run, target sizes and motion |
-| **Wed** | Refactoring UI on finishing touches | C8.1 C8.2 — high fidelity, desktop |
-| **Thu** | Norman ch. 1–4 · your own decision records | S4.1 P4.1 — handoff spec, decision record · **critique** |
-| **Fri** | — | **Defense, 55 min each** · P4.2 reflection |
-| **Sat** | — | S5 system handover · F4 sprint retro |
+| **1** | WCAG 2.2 AA, the 12 criteria that matter here | C7.1 C7.2 — keyboard and focus, contrast pass |
+| **2** | web.dev Learn Accessibility · Deque screen reader module | C7.3 C7.4 — screen reader run, target sizes and motion |
+| **3** | Refactoring UI on finishing touches | C8.1 C8.2 — high fidelity, desktop |
+| **4** | Norman ch. 1–4 · your own decision records | S4.1 P4.1 — handoff spec, decision record · **critique** |
+| **5** | — | **Defense, 55 min each** · P4.2 reflection |
+| **6** | — | S5 system handover · F4 sprint retro |
 
 ---
 
-# Monday
+# the start of the week
 
 ## LEARN — 90 minutes
 
@@ -36,13 +36,13 @@
 
 **What to take:** these 12 criteria cover almost everything a form-based flow can get wrong. You are not memorising WCAG. You are learning to look up the right criterion and cite it by number, because "this is inaccessible" loses an argument and "this fails 1.4.3, measured at 2.85:1" wins it.
 
-→ **Commit** `students/UX{n}/week4/day1-learning.md`
+→ **Commit** `students/UX{n}/week4/session1-learning.md`
 
 ## DO — 2 hours
 
 ### C7.1 — Keyboard and focus
 
-**Learn first:** WCAG 2.1.1, 2.4.3, 2.4.7 from this morning.
+**Learn first:** WCAG 2.1.1, 2.4.3, 2.4.7 from this study time.
 
 **Method**
 1. Make your prototype keyboard operable, in the design: define the tab order for every screen.
@@ -88,7 +88,7 @@
 
 ---
 
-# Tuesday
+# early in the week
 
 ## LEARN — 90 minutes
 
@@ -100,7 +100,7 @@
 
 **What to take:** every interactive element must announce its name, its role, and its current value. An icon button with no accessible name announces as "button", which tells a blind user nothing. That is a defect, not a nicety.
 
-→ **Commit** `day2-learning.md`
+→ **Commit** `session2-learning.md`
 
 ## DO — 2 hours
 
@@ -150,7 +150,7 @@
 
 ---
 
-# Wednesday
+# mid week
 
 ## LEARN — 60 minutes
 
@@ -159,7 +159,7 @@
 | **Refactoring UI** | The chapters on finishing touches, shadows and depth, and working with images | 40 min |
 | **Your own week 1 tokens** | Re-read C1.1, C1.2, C2.1. You are about to use them at full fidelity. | 20 min |
 
-→ **Commit** `day3-learning.md`
+→ **Commit** `session3-learning.md`
 
 ## DO — 2 hours
 
@@ -200,7 +200,7 @@
 
 ---
 
-# Thursday
+# late in the week
 
 ## LEARN — 60 minutes
 
@@ -211,7 +211,7 @@
 
 **Why Norman now, in week 4:** you have spent four weeks making concrete decisions. Reading Norman before that would have been abstract. Reading it now, you will recognise your own week 2 mistakes described in a book from 1988, which is a more useful experience than reading it first.
 
-→ **Commit** `day4-learning.md`
+→ **Commit** `session4-learning.md`
 
 ## DO — 2 hours (plus critique)
 
@@ -265,12 +265,12 @@ Run the full checklist in `06-accessibility-gate.md`. Every line needs evidence:
 
 → `students/UX{n}/week4/accessibility-gate-signed.md`
 
-### Thursday critique — 90 minutes
+### the week's critique — 90 minutes
 Final critique. Present your full flow. The critique lead files the final log for the sprint.
 
 ---
 
-# Friday
+# the end of the week
 
 ## Defense — 55 minutes each
 
@@ -295,7 +295,7 @@ No files. No notes. Your own diagram, drawn live.
 
 ## P4.2 — Reflection
 
-After your defense, written the same day while it is uncomfortable:
+After your defense, written straight away while it is uncomfortable:
 - The question you answered worst, and what you now know you do not understand
 - The strongest thing in your work, with the reason it is strong
 - The weakest, with the reason
@@ -305,7 +305,7 @@ After your defense, written the same day while it is uncomfortable:
 
 ---
 
-# Saturday
+# the cohort review
 
 ## S5 — System handover, 90 minutes
 
