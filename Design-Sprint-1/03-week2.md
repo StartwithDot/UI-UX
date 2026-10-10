@@ -20,11 +20,11 @@
 | **3** | Form Design Patterns ch. 3 · NNGroup on error messages | C3.2 C3.3 — document guidance, address entry |
 | **4** | NNGroup "Error Message Guidelines" · Polaris content guidance | C4.1 C4.2 — error inventory and messages · **critique** |
 | **5** | Figma Learn: Variants, Properties | C3.4 C4.3 C4.4 — upload states, confirmation, plain language |
-| **6** | — | S2 component contribution · F2 why session and teardown |
+| **6** | — | S2 component contribution · F2 why session and teardown · **L-AI1** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -42,7 +42,7 @@
 
 ### P2.1 — Draw the full flow
 
-**Learn first:** the Mermaid flowchart syntax from this study time.
+**Learn first:** the Mermaid flowchart syntax from today's LEARN block.
 
 **Method**
 1. Start with the happy path: every screen from login to confirmation.
@@ -98,7 +98,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 90 minutes
 
@@ -106,7 +106,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 |---|---|---|
 | **Form Design Patterns** | Ch. 2 "A Checkout Form" — one thing per page versus long forms, field grouping, address entry specifically | 50 min |
 | **GOV.UK Design System** | The "Text input" and "Address" pattern pages. Free, and the best public reference for government forms. | 25 min |
-| **Refactoring UI** | The section on visual grouping | 15 min |
+| **Refactoring UI** | Ch. 3, "Avoid ambiguous spacing": grouping fields with space, not borders | 15 min |
 
 **What to take:** one-thing-per-page reduces cognitive load and makes error recovery cheap, but it adds page loads, which on a 3G connection is a real cost. That is the tradeoff you have to state in P2.3, not resolve by preference.
 
@@ -169,7 +169,7 @@ The hardest problem in this brief. Lakshmi, 67, cannot receive the OTP because t
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 90 minutes
 
@@ -210,7 +210,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ### C3.3 — Address entry
 
-**Learn first:** GOV.UK's address pattern from early in the week, and your P2.3 decision.
+**Learn first:** GOV.UK's address pattern from the Day 2 reading, and your P2.3 decision.
 
 **Method**
 1. **Before you open Figma**, write the field table. Every field: label, whether it is required, an example, and the validation rule you can actually state.
@@ -237,7 +237,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 75 minutes
 
@@ -272,7 +272,7 @@ Ramesh does not know that the proof of address must be in his own name. He has t
 
 ### C4.2 — Write every error message
 
-**Learn first:** the three jobs of an error message, from this study time.
+**Learn first:** the three jobs of an error message, from today's LEARN block.
 
 **Method**
 1. For every error in C4.1, write the message.
@@ -301,13 +301,13 @@ Note that each one gives a number, a cause, and a next action.
 
 → `students/UX{n}/week2/C4-2-error-messages.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 
 Present: your happy path, your address entry field table, and three error messages. 12 minutes. Run against `07-critique-guide.md`.
 
 ---
 
-# the end of the week
+# Day 5
 
 ## LEARN — 60 minutes
 
@@ -379,7 +379,7 @@ Write the copy. It must answer, in this order:
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S2 — First components, 90 minutes
 
@@ -413,6 +413,12 @@ Your review must name **one thing that will break when someone else uses it**. E
 
 **F2.3 — Drill continues.** Same log file, one line a day.
 
+## Lab L-AI1 — Options to react against, 90 minutes
+
+Full method and done-when checklist: `07-AI-In-Design.md` (repository root), section L-AI1.
+
+→ `students/UX{n}/week2/L-AI1-options.md`
+
 ---
 
 ## End of week checklist
@@ -423,6 +429,7 @@ Your review must name **one thing that will break when someone else uses it**. E
 - [ ] C4.1, C4.2, C4.3, C4.4
 - [ ] S2.1 component contributed, S2.2 peer review given
 - [ ] Critique attended
+- [ ] L-AI1 done (90 minutes)
 
 **If short on time, cut C4.4 first, then C3.4 down to three states.** Never cut C4.2. Every screen you design in week 3 depends on the error messages existing.
 

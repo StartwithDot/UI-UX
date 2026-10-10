@@ -25,14 +25,14 @@ That is deliberate. This week is understanding plus foundations. Screens start i
 |---|---|---|
 | **1** | Refactoring UI ch. 1–2 · Figma Learn: Auto Layout | P1.1 P1.2 — reframe the brief |
 | **2** | Nielsen's 10 heuristics · WCAG 2.2 AA skim | R1.1 R1.2 R1.3 — audit the live service |
-| **3** | Practical Typography · Refactoring UI ch. 3 (type) | C1.1 C1.2 C1.3 — type and spacing scales |
-| **4** | Refactoring UI ch. 4 (colour) · Leonardo docs | C2.1 C2.2 — colour system · **critique 90 min** |
-| **5** | Refactoring UI ch. 5–6 (hierarchy, depth) | C1.4 P1.3 P1.4 — greyscale hierarchy, constraints, metrics |
+| **3** | Practical Typography · Refactoring UI ch. 3–4 (spacing, type) | C1.1 C1.2 C1.3 — type and spacing scales |
+| **4** | Refactoring UI ch. 5 (colour) · Leonardo docs | C2.1 C2.2 — colour system · **critique 90 min** |
+| **5** | Refactoring UI ch. 3 and 6 (spacing, depth) | C1.4 P1.3 P1.4 — greyscale hierarchy, constraints, metrics |
 | **6** | — | S1 cohort session · F1 why session and teardown |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -43,7 +43,7 @@ That is deliberate. This week is understanding plus foundations. Screens start i
 | **Figma Learn** | "Components and instances" lesson | 15 min |
 | **The live service** | Use `myaadhaar.uidai.gov.in` on your own phone, with your own Aadhaar | 10 min |
 
-**What to take from Refactoring UI ch. 1–2:** start with too much white space and remove it, not the other way round. Hierarchy is created by size, weight, and colour together, and using all three at once is usually wrong. De-emphasising is as powerful as emphasising.
+**What to take from Refactoring UI ch. 1–2:** start with a feature, not a layout; detail comes later; limit your choices. Hierarchy is created by size, weight, and colour together, and using all three at once is usually wrong. De-emphasising is as powerful as emphasising.
 
 → **Commit** `students/UX{n}/week1/session1-learning.md` using the summary template in root `02-Learning-Path.md`.
 
@@ -65,7 +65,7 @@ The department's brief is: *"make it so people stop coming to the counter."*
 
 > **Question:** What percentage of returns are because the item was wrong versus because the customer changed their mind?
 > **Who could answer:** Support team lead, from the returns reason field in the admin tool.
-> **How long:** One build time, if the field is mandatory. Two weeks if it is free text and has to be coded.
+> **How long:** One afternoon, if the field is mandatory. Two weeks if it is free text and has to be coded.
 > **Why it changes the design:** If most returns are "wrong item", the fix is in the product page, not the returns flow.
 
 **Done when**
@@ -103,7 +103,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 90 minutes
 
@@ -123,7 +123,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 ### R1.1 — Screenshot the live flow
 
 **Method**
-1. On your phone, walk the live address update flow at `myaadhaar.uidai.gov.in`. Use only your own Aadhaar.
+1. On your phone, walk the live address update flow at `myaadhaar.uidai.gov.in`. Use only your own Aadhaar. **Stop before any step that pays, submits, or changes your real address.** You are studying the flow, not filing a request. If a step would commit something, screenshot it and go no further, and tell the admin if the service forced you past it.
 2. Screenshot every screen in order.
 3. Now trigger errors on purpose: upload a file that is too large, upload a `.txt`, enter a wrong OTP, leave a required field empty, wait long enough for a session to expire.
 4. Screenshot every error too.
@@ -139,7 +139,7 @@ Note what it does: names the user, names the job, names the obstacle as a rule n
 
 ### R1.2 — Heuristic evaluation
 
-**Learn first:** the 10 heuristics you read this study time.
+**Learn first:** the 10 heuristics you read in today's LEARN block.
 
 **Method**
 1. Go through your screenshots one at a time.
@@ -168,7 +168,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### R1.3 — Accessibility audit
 
-**Learn first:** the WCAG AA criteria you skimmed this study time. You do not need all of them, you need the six below.
+**Learn first:** the WCAG AA criteria you skimmed in today's LEARN block. You do not need all of them, you need the six below.
 
 **Method**
 1. **Keyboard only.** Unplug your mouse or do not touch the trackpad. Try to complete the flow with Tab, Shift+Tab, Enter, and Space. Note where you get stuck.
@@ -195,14 +195,15 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 90 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
-| **Practical Typography** | "Summary of key rules" then the "Type composition" section: point size, line spacing, line length | 40 min |
-| **Refactoring UI** | Ch. 3, the typography chapter: establish a type scale, limit your font weights, don't use grey text on coloured backgrounds | 30 min |
+| **Practical Typography** | "Summary of key rules" then the "Type composition" section: point size, line spacing, line length | 30 min |
+| **Refactoring UI** | Ch. 4 "Designing Text": establish a type scale, keep your line length in check, line-height is proportional | 25 min |
+| **Refactoring UI** | Ch. 3 "Layout and Spacing": start with too much white space, establish a spacing and sizing system | 15 min |
 | **typescale.com** | Open it and try three different ratios on the same base size. Look at what happens to the top end. | 20 min |
 
 **What you need out of this:** a scale is a small fixed set of sizes chosen on purpose, so you never again pick a font size by eye. The reason is consistency and speed of decision, not mathematical beauty.
@@ -213,7 +214,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### C1.1 — Build a type scale
 
-**Learn first:** Refactoring UI ch. 3, the "establish a type scale" section. Practical Typography on point size and line spacing.
+**Learn first:** Refactoring UI ch. 4, the "Establish a type scale" section. Practical Typography on point size and line spacing.
 
 **Method**
 1. Pick your base body size. For a government service on cheap Android phones, 16px is the floor, 17–18px is safer.
@@ -249,7 +250,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### C1.2 — Build a spacing scale
 
-**Learn first:** Refactoring UI ch. 1, on starting with too much white space.
+**Learn first:** Refactoring UI ch. 3, "Start with too much white space" and "Establish a spacing and sizing system".
 
 **Method**
 1. Pick a base unit. 4px or 8px. 8px means fewer decisions; 4px gives finer control in dense UI.
@@ -292,13 +293,13 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 90 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
-| **Refactoring UI** | Ch. 4, the colour chapter: define your palette up front, don't let lightness kill saturation, greys don't have to be grey | 40 min |
+| **Refactoring UI** | Ch. 5, the colour chapter: define your palette up front, don't let lightness kill saturation, greys don't have to be grey | 40 min |
 | **Leonardo** | leonardocolor.io — read the intro, then build one ramp and watch the contrast numbers update | 25 min |
 | **WCAG 1.4.1** | "Use of Color" — the criterion and the failure examples | 15 min |
 | **Material 3** | The colour roles page. Look at how they name roles rather than colours. | 10 min |
@@ -311,7 +312,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### C2.1 — Build the colour system
 
-**Learn first:** Refactoring UI ch. 4. Leonardo for generating the ramps.
+**Learn first:** Refactoring UI ch. 5. Leonardo for generating the ramps.
 
 **Method**
 1. **Neutral ramp, 10 steps.** From near-white to near-black. Use Leonardo so the steps are perceptually even rather than mathematically even. Give them numbers: 50, 100, 200 … 900.
@@ -339,7 +340,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 ### C2.2 — Map colours to roles
 
-**Learn first:** the Material 3 colour roles page from this study time.
+**Learn first:** the Material 3 colour roles page from today's LEARN block.
 
 **Method**
 1. Fill in every role below with a token from C2.1, never a raw hex.
@@ -357,7 +358,7 @@ Note what makes these valid: the user's experience is described in concrete beha
 
 → `students/UX{n}/week1/C2-2-semantic-roles.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 
 Present for 12 minutes: your problem statement, your three worst audit findings, and your type and colour scales. Run against `07-critique-guide.md`.
 
@@ -365,14 +366,14 @@ The critique lead files the log straight after.
 
 ---
 
-# the end of the week
+# Day 5
 
 ## LEARN — 60 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
-| **Refactoring UI** | Ch. 5 "Layout and Spacing" and Ch. 6 "Designing Text" | 40 min |
-| **Refactoring UI** | The greyscale section — designing without colour first | 20 min |
+| **Refactoring UI** | Ch. 6 "Creating Depth" and the "Avoid ambiguous spacing" section of ch. 3 | 40 min |
+| **Refactoring UI** | Ch. 2 sections "Size isn't everything" and "Balance weight and contrast". Greyscale is the test you apply to them: if the hierarchy survives without colour, it is real. | 20 min |
 
 → **Commit** `session5-learning.md`
 
@@ -404,7 +405,7 @@ The critique lead files the log straight after.
 
 **Method**
 1. List every constraint stated in `01-project-brief.md`.
-2. Add at least three you found yourself while using the live service on early in the week.
+2. Add at least three you found yourself while using the live service on Day 2.
 3. Mark each as: **fixed policy** (a rule you cannot change) · **technical** (current implementation, could change with effort) · **assumed** (nobody has actually verified it).
 4. The assumed ones are the ones worth attacking in week 2.
 
@@ -450,7 +451,7 @@ The critique lead files the log straight after.
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S1 — The shared system, cohort session, 90 minutes
 
@@ -467,12 +468,12 @@ Choose one type scale, one spacing scale, one colour system. Or synthesise. Reco
 → `system/docs/foundations-decision.md`
 
 ### S1.3 — Write the tokens
-The agreed foundations as JSON, in two layers: primitive (raw values) and semantic (roles).
+The agreed foundations as JSON, in two layers: primitive (raw values) and semantic (roles). Use the `$type` / `$value` structure of the Design Tokens format so the file survives into Sprint 4 (`Design-Sprint-4/06-token-architecture.md`, section "Format").
 → `system/tokens/primitive.json`, `system/tokens/semantic.json`
 
 ### S1.4 — Shared Figma library
 Set up the library with the agreed variables. Light mode only this week. Post the link.
-→ `system/docs/README.md`
+→ `system/README.md`
 
 ## F1 — Fundamentals, 90 minutes
 
@@ -496,7 +497,7 @@ Set up the library with the agreed variables. Light mode only this week. Post th
 - [ ] C2.1, C2.2
 - [ ] Two peer reviews given, each with one substantive comment
 - [ ] Critique attended, log filed if you were lead
-- [ ] the cohort review: S1 session done, teardown committed, drill log started
+- [ ] Day 6: S1 session done, teardown committed, drill log started
 
 **If you are short on time, cut in this order:** C1.3, then C1.4. Never cut R1.2, R1.3, or the learning summaries. Craft can be polished later. Audit findings and understanding cannot be retrofitted.
 

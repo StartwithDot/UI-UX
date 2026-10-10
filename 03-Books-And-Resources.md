@@ -4,6 +4,8 @@ Everything the program uses, when it is used, what it costs, and what to get fir
 
 **The rule:** a resource is read to solve the task in front of you. Nothing here is a watchlist.
 
+**Prices and links drift.** Last checked 10 October 2026. Prices are rough and change often; verify before you buy. Items marked ⚠ in `09-Modern-Practice-Map.md` move fast.
+
 ---
 
 ## 1. Buy these four. Nothing else is required.
@@ -12,7 +14,7 @@ If you have a limited budget, this is the order.
 
 | # | Book | Author | Needed by | Roughly |
 |---|---|---|---|---|
-| 1 | **Refactoring UI** | Wathan & Schoger | Week 1, the first task | $99 digital |
+| 1 | **Refactoring UI** | Wathan & Schoger | Week 1, Day 1 | Paid; check the current price, it is sold in a bundle |
 | 2 | **Form Design Patterns** | Adam Silver | Week 2 | £25 ebook |
 | 3 | **Just Enough Research** | Erika Hall | Week 5 | $20 |
 | 4 | **Design Systems** | Alla Kholmatova | Week 13 | $39 |
@@ -85,11 +87,20 @@ You will use these more than the books.
 |---|---|---|
 | **IBM Carbon** | carbondesignsystem.com | Sprint 4, 5 |
 | **Shopify Polaris** | polaris.shopify.com | Sprint 4, 5 |
-| **Design Tokens spec** | tr.designtokens.org | Sprint 4 week 14 |
+| **Design Tokens spec, stable 2025.10** | designtokens.org | Sprint 4 week 13 |
 | **web.dev Learn HTML / Learn CSS** | web.dev/learn | Sprint 4 week 16 |
 | **MDN Web Docs** — HTML elements, ARIA | developer.mozilla.org | Sprint 4 |
 | **Pro Git**, chapters 1–3 | git-scm.com/book | Before week 1, and Sprint 4 |
-| **Storybook docs** | storybook.js.org | Sprint 4 |
+| **Storybook docs** | storybook.js.org | Sprint 4 week 14 |
+| **Style Dictionary** | styledictionary.com | Sprint 4 week 13 |
+| **Radix, React Aria, Headless UI docs** | radix-ui.com, react-spectrum.adobe.com | Sprint 4 week 14 (read how they handle focus and composition) |
+
+### Accessibility, current
+| Resource | Where | Used in |
+|---|---|---|
+| **WCAG 2.2 "What's New"** | w3.org/WAI/standards-guidelines/wcag/new-in-22 | Sprint 1 week 4 |
+| **WCAG 3 status page** | w3.org/WAI/standards-guidelines/wcag/wcag3-intro | Reading only. It is a draft. |
+| **Microsoft Inclusive Design toolkit** | inclusive.microsoft.design | Sprints 1, 5 |
 
 ### AI interfaces
 | Resource | Where | Used in |
@@ -111,34 +122,34 @@ You will use these more than the books.
 
 ## 4. What you read, week by week
 
-Pull this into your the start of the week planning. The week file gives the exact pages.
+Pull this into your start-of-week planning. The week file gives the exact pages.
 
 | Weeks | Read this |
 |---|---|
-| 1 | Refactoring UI ch. 1–6 · Practical Typography key rules · Figma Learn: Auto Layout, Components, Variants |
-| 2 | Form Design Patterns ch. 1–3 · NNGroup error message articles |
-| 3 | Refactoring UI states chapters · Material 3 and Polaris state guidance |
-| 4 | WCAG 2.2 AA criteria · web.dev Learn Accessibility · Deque free modules · Norman ch. 1–4 |
-| 5 | Just Enough Research, whole book |
-| 6 | Interviewing Users ch. 1–5 |
-| 7 | Rocket Surgery Made Easy · Don't Make Me Think |
-| 8 | Just Enough Research synthesis chapters · NNGroup sample size articles |
-| 9 | HEART paper · Lean Analytics funnel chapters |
-| 10 | Information Architecture, navigation and labelling · Optimal Workshop guides |
-| 11 | Shape Up, shaping and betting · Inspired parts 1–4 |
-| 12 | Deceptive Design · behavioraleconomics.com · Laws of UX |
-| 13 | Design Systems, Kholmatova ch. 1–4 · Carbon docs |
-| 14 | Design Tokens spec · Tokens Studio docs · Figma variables docs |
-| 15 | Design That Scales · Polaris component docs · Inclusive Components |
-| 16 | web.dev Learn HTML and CSS · MDN ARIA · Pro Git ch. 1–3 |
-| 17 | Designing Interfaces, tables and lists · Carbon data table · Polaris index tables |
-| 18 | Google PAIR Guidebook, whole · Microsoft HAX, all 18 guidelines |
-| 19 | Apple HIG Machine Learning · NNGroup AI usability articles |
-| 20 | Inclusive Components · WCAG target size and focus criteria |
-| 21 | PostHog docs, events and funnels |
-| 22 | Shape Up, revisited · Continuous Discovery Habits |
-| 23 | PostHog experiments · Microsoft Clarity · Kohavi pitfalls chapters |
-| 24 | Articulating Design Decisions · Storytelling with Data · Discussing Design |
+| 1 | Refactoring UI ch. 1–6 · Practical Typography key rules · NNGroup heuristics · WCAG 2.2 AA skim · Figma Learn: Auto Layout, Components, Variants |
+| 2 | Form Design Patterns ch. 1–3 · NNGroup error message articles · Polaris content guidance |
+| 3 | Refactoring UI ch. 8 (empty states) · Material 3 and Polaris state guidance · Rocket Surgery Made Easy ch. 1–4 |
+| 4 | WCAG 2.2 AA · web.dev Learn Accessibility · Deque free modules · Refactoring UI ch. 6–8 · Norman ch. 1–4 |
+| 5 | Just Enough Research, whole book · Interviewing Users ch. 1 · `06-research-ethics.md` |
+| 6 | Interviewing Users ch. 2–5 · NNGroup on affinity diagramming |
+| 7 | Rocket Surgery Made Easy ch. 1–6 · Don't Make Me Think · NNGroup severity ratings |
+| 8 | Just Enough Research on reporting · NNGroup on sample size · journey mapping · Norman on human error |
+| 9 | About Face (postures, undo) · statecharts.dev · NNGroup response times · Google HEART paper · Lean Analytics funnels |
+| 10 | Designing Interface Animation · Material motion · WCAG 2.3.3 |
+| 11 | deceptive.design · CMA, FTC and India CCPA dark pattern guidance · Ruined by Design · Fogg behaviour model |
+| 12 | ACM Code of Ethics · `06-ethics-position.md` · ARIA APG |
+| 13 | Design Systems (Kholmatova) ch. 1–3 · `06-token-architecture.md` · Design Tokens spec 2025.10 · Style Dictionary and Tokens Studio docs |
+| 14 | Atomic Design · Design Systems ch. 4–5 · Radix or React Aria docs · ARIA APG |
+| 15 | Design Systems ch. 6–7 · Polaris, Carbon and GOV.UK contribution guides · semver.org |
+| 16 | Design Systems ch. 8 · Sparkbox or Zeroheight adoption articles · web.dev Learn HTML |
+| 17 | You choose · Google PAIR Guidebook and Microsoft HAX (for L-AI5) · `06-capstone-rubric.md` |
+| 18 | You choose · current Apple HIG or Material 3 · Rocket Surgery on fidelity (L-PR4) |
+| 19 | You choose |
+| 20 | You choose · your own decision log |
+| 21 | Five real case studies · `06-case-study-structure.md` · NNGroup "How Users Read on the Web" |
+| 22 | Portfolio patterns · axe and Lighthouse |
+| 23 | `07-interview-question-bank.md` |
+| 24 | Application strategy |
 
 ---
 
@@ -180,21 +191,24 @@ Nielsen Norman Group · Smashing Magazine · UX Collective · Lenny's Newsletter
 
 ## 8. AI tools
 
-Allowed. Disclosed. Never the decision maker.
+Allowed. Disclosed. Never the decision maker. The labs in `07-AI-In-Design.md` teach the practice; this table is the policy.
 
 | Tool | Useful for | Never for |
 |---|---|---|
 | Claude, ChatGPT, Gemini | Generating options to react against, microcopy variants, reading unfamiliar code, summarising transcripts you have already read yourself | Making the decision, or inventing a research finding |
-| Figma AI features | Renaming layers, first-pass content fill, searching across files | Layout decisions |
-| Cursor, Copilot | Reading a component, small token or Storybook edits | Shipping code you cannot explain |
-| v0, Lovable, Uizard | Throwaway scaffolds to react against | Deliverables |
-| Whisper transcription | Interview transcripts | Synthesis. That is your job. |
+| Figma AI features, Figma Make | Renaming layers, first-pass content fill, searching across files, a throwaway prototype to compare against your spec | Layout decisions, or a deliverable |
+| Cursor, Copilot, Claude Code | Reading a component, small token or Storybook edits | Shipping code you cannot explain |
+| v0, Lovable, Bolt, Uizard | Throwaway scaffolds to react against | Deliverables |
+| Whisper-class transcription | Interview transcripts, with the participant's consent covering it | Synthesis. That is your job. |
+| AI-moderated interviews | Nothing yet. Treat as unvalidated. | Replacing participants |
 
-**The rule.** Anything an AI touched carries a one-line footer: what you used, and how you verified the output.
+**The rule.** Anything an AI touched carries a one-line footer: what you used, and how you verified the output. You also log every use in `ai-log.md`.
 
 > *AI note: used Claude to generate 8 alternative error messages. Selected 3, rewrote 2, tested all with one participant.*
 
 An artefact with that footer scores higher than one with no footer. The oral defense is the equaliser — nobody can outsource answering "why did you choose this".
+
+**Participant data.** Never paste participant data into a tool whose data policy you have not read, and never where the consent form did not cover it.
 
 ---
 

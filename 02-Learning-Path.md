@@ -2,7 +2,7 @@
 
 The 24 weeks of learning, week by week. This is the answer to "what am I supposed to be learning right now".
 
-Every week has a topic, a named primary source, and the skill you should be able to demonstrate by the end of the week. The week files inside each sprint folder break this down to the day.
+Every week has a topic, the named primary sources, and the skill you should be able to demonstrate by the end of it. The week files inside each sprint folder break this down to the day. Current standards and tools for each area are in `09-Modern-Practice-Map.md`.
 
 ---
 
@@ -11,86 +11,93 @@ Every week has a topic, a named primary source, and the skill you should be able
 - **At the start of every week:** read your row. Then open the week file for the details.
 - **Nothing is assigned that is not used.** If a book is in a row, a task that week needs it.
 - **Reading ahead is fine.** Reading instead of doing is not.
+- **Labs.** Fourteen short labs sit on the week's Day 6, in three families: `L-AI` (AI in design, `07-AI-In-Design.md`), `L-PR` (prototyping and responsive, `08-Prototyping-And-Responsive.md`) and `JR` (job readiness, `06-Job-Readiness-Track.md`). They appear in the tables below.
 
 Primary sources are listed by short name. Full details, cost, and where to get them are in `03-Books-And-Resources.md`.
 
 ---
 
 ## Sprint 1 · Weeks 1 to 4 · Visual craft and one complete flow
+*Project: the Aadhaar address update flow, for a state government digital services unit.*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 1 | Hierarchy, type scales, spacing scales, colour ramps | Refactoring UI (ch. 1–6) · Practical Typography · Figma Learn: Auto Layout, Components | Build a type scale, a spacing scale, and a colour ramp, and say why each step exists |
-| 2 | Forms, labels, validation, error messages, microcopy | Form Design Patterns (ch. 1–3) · Nielsen Norman error message articles | Design a multi-field form where every field has a label, a hint, and a stated validation rule |
-| 3 | Every state a screen can be in. Loading, empty, error, offline | Refactoring UI (ch. on states) · Practical guidance from Material 3 and Polaris | Produce a full states matrix and design the four hardest ones |
-| 4 | Accessibility: WCAG AA, keyboard, screen readers, contrast | WCAG 2.2 quickref (AA only) · Deque University free modules · web.dev Learn Accessibility | Run a real accessibility gate on your own flow with evidence on every line |
+| 1 | **Frame.** Reframe a vague brief; hierarchy, type, spacing and colour foundations | Refactoring UI ch. 1–6 · Practical Typography · NNGroup heuristics · WCAG 2.2 AA · Figma Learn: Auto Layout, Components | Turn a bad brief into a problem statement; audit a live service; build a type scale, spacing scale and colour ramp and say why each step exists |
+| 2 | **Build.** Flows, forms, labels, validation, error messages | Form Design Patterns ch. 1–3 · NNGroup on error messages · Polaris content guidance · Figma Learn: Variants | Draw a flow with every failure path; design a form where every field has a label, hint and validation rule; write every error message · **L-AI1** |
+| 3 | **Test and fix.** Every state a screen can be in; usability testing | Refactoring UI ch. 8 (empty states) · Material 3 and Polaris state guidance · Rocket Surgery Made Easy ch. 1–4 | Produce a states matrix; test with three people without leading them; trace every change to a finding; write a post mortem on a change you did not choose · **L-PR1** |
+| 4 | **Ship and defend.** Accessibility, high fidelity, handoff | WCAG 2.2 AA · web.dev Learn Accessibility · Deque University · Refactoring UI ch. 6–8 · Norman ch. 1–4 | Run a real accessibility gate with evidence on every line; use a screen reader on your own design; write a handoff spec; defend four weeks of decisions · **JR1** |
 
-**Fundamentals spine, weeks 1 to 4:** Gestalt principles · visual hierarchy and whitespace · cognitive load and progressive disclosure · affordances, signifiers, and mental models (Norman ch. 1–4).
+**Fundamentals spine:** Gestalt principles · visual hierarchy and whitespace · cognitive load and progressive disclosure · affordances, signifiers and mental models.
 
 ---
 
 ## Sprint 2 · Weeks 5 to 8 · Research and problem framing
+*Project: a skill scheme with a 38% drop inside its enrolment form; the client has already diagnosed "motivation".*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 5 | What research is for. Assumptions, risk, research plans | Just Enough Research (whole book, it is short) | Write a research plan that can fail, with a ranked assumption list |
-| 6 | Interviewing. Non-leading questions, silence, follow-ups | Interviewing Users (ch. 1–5) · Continuous Discovery Habits (ch. on interviewing) | Run a real interview and critique your own transcript honestly |
-| 7 | Usability testing with no budget | Rocket Surgery Made Easy · Don't Make Me Think | Run a moderated usability test on 3 people and severity-rate every issue |
-| 8 | Synthesis. Findings, confidence, contradiction | Just Enough Research (synthesis) · NNGroup on sample size | Turn 5 sessions into findings with confidence levels and a finding-to-decision map |
+| 5 | **Plan.** What research is for; assumptions and risk; ethics and consent | Just Enough Research (whole book) · Interviewing Users ch. 1 · `06-research-ethics.md` | Write a research plan that can fail, with a ranked assumption list; recruit five real participants |
+| 6 | **Talk.** Interviewing without leading | Interviewing Users ch. 2–5 · Just Enough Research on synthesis · NNGroup on affinity diagramming | Run a 45-minute interview, critique your own transcript, turn five conversations into patterns · **L-AI2** |
+| 7 | **Test.** Usability testing with no budget | Rocket Surgery Made Easy ch. 1–6 · Don't Make Me Think · NNGroup severity ratings | Run a moderated study on five people; severity-rate every finding; absorb a research-invalidating constraint |
+| 8 | **Synthesise.** Findings, confidence, contradiction | Just Enough Research on reporting · NNGroup on sample size and personas · journey mapping and service blueprints · Norman on human error | Present findings with honest confidence levels; trace every design change to a finding; defend a sample of five · **JR2** |
 
-**Fundamentals spine, weeks 5 to 8:** memory, attention and cognitive load (100 Things Every Designer Needs to Know About People) · mental models · how research goes wrong · ethics and consent.
+**Fundamentals spine:** memory, attention and cognitive load · mental models and the gulf of evaluation · bias · the psychology of decision-making.
 
 ---
 
-## Sprint 3 · Weeks 9 to 12 · Product thinking and metrics
+## Sprint 3 · Weeks 9 to 12 · Interaction, motion, metrics and ethics
+*Project: Sutra, a language-learning app, and its subscription flow. The consumer, visually ambitious project, and your portfolio's front page.*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 9 | Metrics that mean something. Funnels, activation, HEART | Google HEART paper · Lean Analytics (funnel chapters) · Escaping the Build Trap | Define activation with evidence, and map a funnel with real numbers |
-| 10 | Information architecture, labelling, tree testing | Information Architecture (navigation and labelling chapters) · Optimal Workshop guides | Propose an IA and validate it with a tree test |
-| 11 | Scoping honestly. Appetite, cutting, tradeoffs | Shape Up (shaping and betting) · Inspired (parts 1–4) | Shape a feature to a fixed appetite and write a defensible cut list |
-| 12 | Persuasion, ethics, dark patterns, experiments | Deceptive Design catalogue · behavioraleconomics.com guide · Laws of UX | Audit your own design for persuasion and design an experiment with a detectable effect |
+| 9 | **Transitions.** State machines, feedback, latency; activation and funnels | About Face (postures, undo) · statecharts.dev · NNGroup on response times · Google HEART paper · Lean Analytics (funnels) | Draw a state machine with every guard; specify feedback by real latency; define activation and a metric set with a guardrail · **L-AI3** |
+| 10 | **Motion.** Animation that communicates | Designing Interface Animation (Val Head) · Material motion · WCAG 2.3.3 | Choose duration and easing for a reason; delete decoration; build a reduced-motion version that is not just "instant"; write a motion spec · **L-PR2** |
+| 11 | **Dark patterns.** Persuasion versus manipulation | deceptive.design · CMA, FTC and India CCPA guidance · Ruined by Design · Fogg behaviour model | Name the mechanism behind a dark pattern; build one and account for its cost; make the business case for the honest version with an experiment design; handle a business demand |
+| 12 | **Ethics and ship.** Where your line is | ACM Code of Ethics · `06-ethics-position.md` · WCAG for interactive components · ARIA APG | Write an ethics position and a refusal a manager could receive; ship an accessible, specified flow with instrumentation; produce the showpiece · **JR3** |
 
-**Fundamentals spine, weeks 9 to 12:** behavioural economics in interfaces · defaults and framing · where influence becomes manipulation · regulation (DPDP Act summary).
+**Fundamentals spine:** feedback loops and the two gulfs · perception of time and change blindness · persuasion, nudging and choice architecture · ethics in practice.
 
 ---
 
-## Sprint 4 · Weeks 13 to 16 · Design systems and handoff
+## Sprint 4 · Weeks 13 to 16 · Design systems, scale and governance
+*Project: a health tech company with three products on three frameworks and two brands.*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 13 | What a design system actually is. Audit and inventory | Design Systems, Kholmatova (ch. 1–4) · IBM Carbon documentation | Audit an inconsistent product set and cost the divergence |
-| 14 | Tokens. Primitive, semantic, component. Theming | Design Tokens spec · Tokens Studio docs · Figma variables and modes docs | Build a three-layer token set that produces two brands and two themes |
-| 15 | Components. API, states, variants, documentation, governance | Design That Scales · Inclusive Components · Shopify Polaris docs | Document a component so completely that nobody has to ask you a question |
-| 16 | Handoff and the web platform. HTML semantics, CSS, git | web.dev Learn HTML and Learn CSS · MDN ARIA · Pro Git ch. 1–3 | Write a handoff spec an engineer can build from without asking you anything |
+| 13 | **Tokens.** Audit; three-layer architecture; theming | Design Systems (Kholmatova) ch. 1–3 · `06-token-architecture.md` · Design Tokens spec 2025.10 · Style Dictionary and Tokens Studio docs · Material 3 and Polaris token docs · Expressive Design Systems | Cost the divergence; build a primitive, semantic and component token set that themes three products without redesign; export it in the standard format · **L-PR3** |
+| 14 | **Components.** APIs, variants, slots, documentation | Atomic Design · Design Systems ch. 4–5 · Radix, React Aria or Headless UI docs (composition) · ARIA APG · Storybook docs | Design a component API and defend every property; write documentation a stranger can build from; compose without impossible combinations · **L-AI4** |
+| 15 | **Governance.** Who decides; rejection; deprecation | Design Systems ch. 6–7 · Polaris, Carbon and GOV.UK contribution guides · semver | Write a contribution model with rejection criteria; reject a contribution kindly; deprecate something people use |
+| 16 | **Adoption.** Measurement; migration; being ignored | Design Systems ch. 8 · Sparkbox and Zeroheight articles on adoption · semver · web.dev Learn HTML (for L-PR3 and L-AI4) | Measure adoption with something better than a feeling; diagnose a fork; write a migration guide someone completes · **JR4** |
 
-**Fundamentals spine, weeks 13 to 16:** systems thinking and the cost of abstraction · why design systems die · semantics and why element choice is an accessibility decision · performance basics.
+**Fundamentals spine:** abstraction and indirection · Conway's law · APIs as contracts · standardisation versus autonomy.
 
 ---
 
-## Sprint 5 · Weeks 17 to 20 · Complex interfaces and AI
+## Sprint 5 · Weeks 17 to 20 · The capstone
+*Project: your choice of four (public health appointments, gig worker earnings and disputes, school-to-work, loan underwriting console with an AI score), or your own, approved.*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 17 | Designing for experts. Density, keyboard-first, tables | Designing Interfaces (table and list chapters) · Carbon data table docs · Polaris index tables | Put 38 fields on one screen, scannable in 40 seconds, keyboard complete |
-| 18 | AI in interfaces. Confidence, explanation, trust calibration | Google People + AI Guidebook (whole) · Microsoft HAX Guidelines (all 18) | Present a model score so it informs without deciding, and defend the choice |
-| 19 | Uncertainty and failure. When the model is slow, absent, wrong | Apple HIG Machine Learning · NNGroup AI usability articles | Design every AI failure state as a first-class state, not an error toast |
-| 20 | Accessibility at density. Screen readers on complex UI | Inclusive Components · WCAG target size and focus criteria · Deque University | Pass a screen reader run on a dense professional interface |
+| 17 | **Frame.** Scope it yourself; research; evidence gate | You choose and justify · Google People + AI Guidebook and Microsoft HAX (for L-AI5) | Write your own scoped task list; run research without a template; pass an evidence gate · **L-AI5** |
+| 18 | **Design.** The whole flow to the standard in a week | You choose · current Apple HIG or Material 3 for your platform | Hold Sprint 1 to 4 standards unprompted; pass the craft gate · **L-PR4** |
+| 19 | **Test.** Real users; iterate; absorb the injection | You choose | Change a design because of evidence and show the trace; absorb a severe late constraint; review your own work for the ethical problem you created |
+| 20 | **Ship.** Spec, present, defend all twenty weeks | — | Ship a complete, specified, accessible design; present to a stranger; defend anything from week 1 · **JR5** |
 
-**Fundamentals spine, weeks 17 to 20:** probabilistic systems · automation bias and over-trust · how people misread probability · accessibility depth.
+**Fundamentals spine:** self-directed. Present the concept the capstone forced you to learn.
 
 ---
 
-## Sprint 6 · Weeks 21 to 24 · Ship, measure, and tell the story
+## Sprint 6 · Weeks 21 to 24 · Portfolio, interview, and getting hired
+*The project is the evidence that you can do the job.*
 
 | Week | Topic | Primary source | You can do this by the end of the week |
 |---|---|---|---|
-| 21 | Discovery on your own. Baselines and instrumentation plans | PostHog docs (events and funnels) · your own Sprint 2 notes | Establish a real baseline number before you design anything |
-| 22 | Framing and scoping your own project | Shape Up · Continuous Discovery Habits (opportunity trees) | Write a problem statement and a metric set before opening Figma |
-| 23 | Measurement in practice. Events, funnels, replay | PostHog docs · Microsoft Clarity · Trustworthy Online Controlled Experiments (pitfalls) | Instrument a real flow and read the first data honestly |
-| 24 | Communication. Case studies and defending decisions | Articulating Design Decisions · Storytelling with Data · Discussing Design | Write a case study that includes what you got wrong, and defend it to strangers |
+| 21 | **Case studies.** Three arguments from twenty weeks | `06-case-study-structure.md` · NNGroup on how users read the web · five real case studies | Choose three on evidence; write them to a structure; include a failure; cut by a third |
+| 22 | **Portfolio.** Build it, get it reviewed by a stranger, fix it | Portfolio patterns · résumé conventions · axe and Lighthouse | Ship a live portfolio that passes its own accessibility check; take external criticism without arguing |
+| 23 | **Interview craft.** Talking about the work | `07-interview-question-bank.md` · whiteboard method | Walk a case study in five and in twenty minutes; solve a design problem on a whiteboard; critique without being soft or unpleasant |
+| 24 | **Market.** Applications, a full loop, and a plan | Application strategy | Send ten real applications; complete a mock loop; say honestly what you are still weak at; leave with a 90-day plan |
 
-**Fundamentals spine, weeks 21 to 24:** measurement, significance and its abuse · reading a funnel honestly · communication and decision defense.
+**Fundamentals spine:** how hiring managers read portfolios · how design interviews are scored · teaching the hardest concept.
 
 ---
 

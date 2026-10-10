@@ -20,11 +20,11 @@
 | **3** | Your own Sprint 1 craft notes | C9.1 — redesign the two worst steps |
 | **4** | Norman on human error | C9.2 S9.1 — full flow, evidence-linked spec · **critique** |
 | **5** | — | **Defense, 55 min** · P8.2 reflection |
-| **6** | — | S10 system release · F8 sprint retro |
+| **6** | — | S10 system release · F8 sprint retro · **JR2** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 75 minutes
 
@@ -87,7 +87,7 @@ Note that the contradiction produced a better design constraint than either indi
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 75 minutes
 
@@ -145,7 +145,7 @@ Note that the contradiction produced a better design constraint than either indi
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 45 minutes
 
@@ -175,7 +175,7 @@ Re-read your own Sprint 1 week 1 type and colour work, and the Sprint 1 accessib
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 60 minutes
 
@@ -198,12 +198,12 @@ Every screen, mid to high fidelity, incorporating everything. Using the system. 
 The handoff spec, to the Sprint 1 standard, with one addition: **every non-obvious decision carries the finding ID it came from.** An engineer who wants to change something should be able to see what evidence they would be arguing with.
 → `students/UX{n}/week8/S9-1-spec.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Final critique. Present the flow and the finding-to-decision map together. The critique focus: **is every change earned by evidence, or has some craft preference been laundered through a quote?**
 
 ---
 
-# the end of the week
+# Day 5
 
 ## Defense — 55 minutes
 
@@ -230,7 +230,7 @@ Final critique. Present the flow and the finding-to-decision map together. The c
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S10 — System release
 
@@ -251,6 +251,12 @@ Final critique. Present the flow and the finding-to-decision map together. The c
 
 **F8.4 — Drill log review.** 40 entries now.
 
+## Lab JR2 — Case study 1 and a live skeleton, 3 hours
+
+Full method and done-when checklist: `06-Job-Readiness-Track.md` (repository root), section JR2.
+
+→ `students/UX{n}/portfolio/JR2-case-study-1.md`
+
 ---
 
 ## Sprint 2 done when
@@ -268,5 +274,6 @@ Final critique. Present the flow and the finding-to-decision map together. The c
 - [ ] Reflection
 - [ ] System released, debt updated
 - [ ] 4 teardowns, 1 explainer, 40 drill entries
+- [ ] JR2 done, with the external input it needs
 
 Next: `../Design-Sprint-3/00-READ-FIRST.md`

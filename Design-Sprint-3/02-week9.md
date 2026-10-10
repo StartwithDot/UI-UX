@@ -19,12 +19,12 @@
 | **2** | NNGroup response times · optimistic UI patterns | I1.2 I1.3 — latency plan, feedback design |
 | **3** | About Face on undo and error tolerance | I1.4 — undo, confirm, and irreversibility |
 | **4** | Polaris and Material on interaction states | I1.5 C10.1 — transition inventory, hi-fi states · **critique** |
-| **5** | Microcopy references | C10.2 P9.1 — state-change copy, interaction principles |
-| **6** | — | S11 system · F9 why session and teardown |
+| **5** | Microcopy references · Google HEART paper · Lean Analytics funnel chapters | C10.2 P9.1 P9.2 — state-change copy, interaction principles, activation and funnel |
+| **6** | — | S11 system · F9 why session and teardown · **L-AI3** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -79,7 +79,7 @@ Note that `CancelPending` exists as its own state. Most designs skip it, and tha
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 75 minutes
 
@@ -139,7 +139,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 60 minutes
 
@@ -185,7 +185,7 @@ Point 4 has a trap: after a failure, is the user back where they started, or in 
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 60 minutes
 
@@ -223,23 +223,25 @@ Sprint 1 rules still apply: focus indicators at 3:1, disabled states still measu
 
 → `students/UX{n}/week9/C10-1-interaction-states.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Present your state machine and your cancellation confirmation. The critique focus: **is there any state the user can reach where they cannot tell what state they are in?**
 
 ---
 
-# the end of the week
+# Day 5
 
-## LEARN — 45 minutes
+## LEARN — 90 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
 | **Nicely Said** or **Strunk & White** | The chapter on writing plainly and cutting words | 25 min |
 | **Mailchimp Content Style Guide** | The voice and tone section, free online | 20 min |
+| **Google HEART framework paper** | The five categories, and the Goals-Signals-Metrics method | 25 min |
+| **Lean Analytics** | The funnel and activation chapters (borrow it) | 20 min |
 
 → **Commit** `session5-learning.md`
 
-## DO — 2 hours
+## DO — 3 hours
 
 ### C10.2 — State-change microcopy
 
@@ -285,9 +287,36 @@ Write five principles you will hold for the rest of this sprint. Each must be sp
 
 → `students/UX{n}/week9/P9-1-principles.md`
 
+### P9.2 — Activation and the funnel
+
+**Learn first:** the HEART paper and the funnel chapters from today's LEARN block. The numbers you need are in `01-project-brief.md`, sections 1, 4 and 6.
+
+**Method**
+1. Draw the funnel from install to a paying learner at month 3: install, account created, first lesson started, first lesson completed, five lessons in week 1, trial started, first payment, still paying at month 3. Put a number on every step and the drop-off in percentage points. Mark the biggest leak.
+2. Propose three candidate definitions of **activation**. For each give the event, the time window, and the evidence from the brief's retention data that it predicts staying.
+3. Choose one. Defend it against the other two in three sentences. State what it would miss.
+4. Write the metric set: one primary metric, two input metrics, and one **guardrail**. The guardrail must protect against hitting the number while damaging something else.
+5. Mark which transitions in your I1.1 state machine are funnel steps.
+
+**Worked example** — a meal-kit subscription, different case:
+
+> Funnel: visit 100,000 → signup 6,200 (6.2%) → first box ordered 1,900 (31% of signups) → second box 1,100 (58%) → still ordering at week 10: 640 (58%).
+> The biggest leak by volume is visit→signup, but the biggest leak *that predicts revenue* is first box→second box, because 90% of people who reach a second box reach week 10.
+> **Activation = second box ordered within 21 days.** Rejected: "first box ordered" (it is a purchase, not a habit). Rejected: "app opened 3 times" (easy to game, weakly linked to retention). It misses people who buy one large box for an event.
+> **Guardrail:** week-10 retention and refund rate must not fall. Pushing a discounted second box would lift activation and bring in people who leave at week 10.
+
+**Done when**
+- [ ] Funnel with a number on every step and the biggest leak marked
+- [ ] Three activation definitions, each with evidence from the brief
+- [ ] One chosen and defended, with what it misses stated
+- [ ] Primary, two input metrics and a guardrail that is not a second success metric
+- [ ] State machine transitions mapped to funnel steps
+
+→ `students/UX{n}/week9/P9-2-activation-funnel.md`
+
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S11 — System, 90 minutes
 
@@ -305,6 +334,12 @@ Write five principles you will hold for the rest of this sprint. Each must be sp
 
 **F9.3 — Drill continues.**
 
+## Lab L-AI3 — From spec to throwaway prototype, 90 minutes
+
+Full method and done-when checklist: `07-AI-In-Design.md` (repository root), section L-AI3.
+
+→ `students/UX{n}/week9/L-AI3-prototype.md`
+
 ---
 
 ## End of week checklist
@@ -313,6 +348,8 @@ Write five principles you will hold for the rest of this sprint. Each must be sp
 - [ ] I1.1 through I1.5
 - [ ] C10.1, C10.2
 - [ ] P9.1 five principles
+- [ ] P9.2 funnel, activation definition and metric set
 - [ ] Critique attended
+- [ ] L-AI3 done (90 minutes)
 
 Next: `03-week10.md`

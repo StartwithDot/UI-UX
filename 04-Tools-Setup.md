@@ -1,8 +1,8 @@
 # 04 — Tools Setup
 
-Do all of this before week 1 the first task. It takes about an hour.
+Do all of this before Week 1 starts. It takes about an hour.
 
-**The rule:** at most two new tools per sprint. Tool count is the easiest thing to inflate and the least valuable thing to own.
+**The rule:** after Sprint 1, at most two new working tools per sprint. Tool count is the easiest thing to inflate and the least valuable thing to own. Learn the job, not the logo; the current stack and why is in `09-Modern-Practice-Map.md`.
 
 ---
 
@@ -14,7 +14,7 @@ Do all of this before week 1 the first task. It takes about an hour.
 3. Create your practice file, named exactly: `SPRINT-1 Practice UX{n}` (use your own code)
 4. Install the Figma desktop app. The browser version is slower for real work.
 
-**Before week 1 the first task, complete these Figma Learn lessons:**
+**Before Week 1, complete these Figma Learn lessons:**
 - Auto layout (about 20 min)
 - Components and instances (about 15 min)
 - Variants (about 10 min)
@@ -29,8 +29,9 @@ If auto layout is new to you, that hour is the highest-value hour of your week.
 Install both if you can. You use axe on the live service in week 1 and Stark inside Figma from week 2.
 
 ### Screen reader — already on your machine
-- **macOS:** VoiceOver. Turn on with `Cmd + F5`.
+- **macOS and iPhone:** VoiceOver. Turn on with `Cmd + F5` on a Mac.
 - **Windows:** NVDA, free at nvaccess.org.
+- **Android:** TalkBack, built in. Most of your users are on Android, so test there too.
 
 **Do this before the start:** turn it on and navigate one website you know for five minutes. Then turn it off. The point is that it is not new to you the first time it is graded, in week 4.
 
@@ -42,15 +43,21 @@ Install both if you can. You use axe on the live service in week 1 and Stark ins
    git config --global user.name "Your Name"
    git config --global user.email "you@example.com"
    ```
-4. Fork the Sprint 1 repository, clone your fork, add the upstream remote:
+4. Fork the program repository **once**, clone your fork, add the upstream remote. You work inside the folder for the current sprint:
    ```bash
-   git clone https://github.com/{your-username}/Design-Sprint-1.git
-   cd Design-Sprint-1
-   git remote add upstream https://github.com/StartwithDot/Design-Sprint-1.git
+   git clone https://github.com/{your-username}/UI-UX.git
+   cd UI-UX
+   git remote add upstream https://github.com/StartwithDot/UI-UX.git
    git remote -v
    ```
 
 If git is genuinely new to you, read **Pro Git chapters 1–3** (free at git-scm.com/book) before week 1. You need four commands: `clone`, `branch`, `commit`, `push`. Nothing more, for now.
+
+### An AI assistant — pick one, free tier is enough
+Claude, ChatGPT or Gemini. You will use one in the AI labs (`07-AI-In-Design.md`) and keep a log of every use. Create the account now and read the provider's data policy: you must not paste participant data into a tool whose policy you have not read.
+
+### Browser developer tools
+Chrome or Firefox DevTools. In week 1 you need the **Accessibility** pane (the accessibility tree), **device mode** and the **Lighthouse** panel. From week 3 you use "emulate prefers-reduced-motion". Open DevTools once on a site you know and find each.
 
 ### A markdown editor
 VS Code (free) or Obsidian (free). You write more markdown than you expect. Anything that previews markdown and previews Mermaid diagrams is fine.
@@ -60,21 +67,22 @@ VS Code (free) or Obsidian (free). You write more markdown than you expect. Anyt
 - leonardocolor.io — perceptually even colour ramps
 - contrast-ratio.com or the WebAIM contrast checker
 - mermaid.live — write and preview flow diagrams
+- Loom or your operating system's screen recorder — for prototype clips and mock interviews (from week 10)
 
 ---
 
 ## 2. Tools by sprint
 
-Two new tools maximum per sprint. Everything before it carries forward.
+After Sprint 1, two new working tools maximum per sprint. Everything before it carries forward.
 
 | Sprint | New | Carried forward |
 |---|---|---|
-| 1 | Figma · Stark or axe DevTools · VoiceOver/NVDA · git | — |
-| 2 | Maze **or** Lyssna · Dovetail **or** Notion | Figma, git |
-| 3 | FigJam · Optimal Workshop | everything above |
-| 4 | Tokens Studio · Storybook | everything above |
-| 5 | ProtoPie (optional) · one AI product studied as material | everything above |
-| 6 | PostHog · Microsoft Clarity | everything above |
+| 1 | Figma · Stark or axe DevTools · VoiceOver/NVDA/TalkBack · git · browser DevTools · one AI assistant | — |
+| 2 | Maze **or** Lyssna · Dovetail **or** Notion (and a transcription tool, with consent) | Figma, git, AI assistant |
+| 3 | FigJam · Figma prototyping with variables · an AI prototyping tool (Figma Make or v0) for L-AI3 only | everything above |
+| 4 | Tokens Studio · Style Dictionary · Storybook · Figma Dev Mode | everything above |
+| 5 | Rive or ProtoPie (optional) · your project's own tools | everything above |
+| 6 | PostHog · Microsoft Clarity · a portfolio platform (Framer, Webflow, GitHub Pages or hand-coded) | everything above |
 
 Everything on this list has a free tier that covers what the program asks for.
 
@@ -86,14 +94,19 @@ Not the whole tool. These parts.
 
 | Tool | Learn this, and stop |
 |---|---|
-| **Figma** | Auto layout, components, variants and properties, variables and modes, libraries, branching, dev mode |
+| **Figma** | Auto layout, components, variants and properties, **variables and modes**, libraries, branching, **Dev Mode**, prototyping with variables and conditionals |
+| **Figma Make / v0** | Prompt a throwaway prototype and compare it with your spec. Never ship the output. |
 | **FigJam** | Flow diagrams, affinity mapping, running a session |
 | **Stark / axe** | Contrast checking, focus order, running an automated scan and reading the result |
-| **VoiceOver / NVDA** | Navigate by heading, navigate by form control, hear what a button announces |
+| **VoiceOver / NVDA / TalkBack** | Navigate by heading, navigate by form control, hear what a button announces |
+| **AI assistant** | Draft options to react against, read unfamiliar code, summarise what you already read. Verify everything; keep the log. |
 | **Maze / Lyssna** | Build an unmoderated test, read task success, read a misclick heatmap |
 | **Optimal Workshop** | Card sort, tree test, read the result |
-| **Dovetail / Notion** | Tag a transcript, produce a finding that survives the sprint |
-| **Tokens Studio** | Figma variables → JSON → code |
+| **Dovetail / Notion** | Tag a transcript, produce a finding that survives the sprint. AI summaries are a first pass for you to check, never the finding. |
+| **Tokens Studio** | Figma variables → token JSON |
+| **Style Dictionary** | Token JSON (Design Tokens format 2025.10) → CSS custom properties |
+| **Figma Dev Mode** | Inspect a spec, see which tokens a component uses. The Dev Mode MCP server connects design context to AI coding tools; know it exists. |
+| **Browser DevTools** | Accessibility tree, device mode, Lighthouse, reduced-motion emulation, inspecting computed values |
 | **Storybook** | Read a story, document a component |
 | **git** | branch, commit, push, open a pull request, read a diff |
 | **PostHog** | Define an event, build a funnel, read a session replay, run a feature flag |
@@ -145,7 +158,7 @@ Use Figma branching for system contributions so the system owner reviews a branc
 | Thing | Figma | Git |
 |---|---|---|
 | Screens and components | source of truth | link + exported PNG of the final state |
-| Tokens | Figma variables mirror it | **source of truth**, `system/tokens/*.json` |
+| Tokens | Figma variables mirror it | **source of truth**, `system/tokens/*.tokens.json` |
 | Flows and IA | optional in FigJam | **source of truth**, Mermaid in markdown |
 | Decisions and rationale | never | **always**, markdown |
 | Specs and annotations | dev mode | markdown spec next to the link |
@@ -158,12 +171,14 @@ Reason: Figma cannot be diffed or reviewed line by line. Anything that needs to 
 
 - [ ] Figma account, team invite accepted, practice file created and named
 - [ ] Four Figma Learn lessons completed
-- [ ] Stark or axe DevTools installed
-- [ ] VoiceOver or NVDA turned on once, five minutes on a real site
+- [ ] Stark or axe DevTools installed, and the DevTools accessibility pane found
+- [ ] VoiceOver, NVDA or TalkBack turned on once, five minutes on a real site
 - [ ] GitHub account, git installed, identity configured
-- [ ] Sprint 1 repo forked, cloned, upstream remote added
+- [ ] Program repo forked, cloned, upstream remote added
+- [ ] An AI assistant account, and its data policy read
 - [ ] Markdown editor installed
 - [ ] typescale.com, leonardocolor.io, contrast checker, mermaid.live bookmarked
 - [ ] Refactoring UI purchased and downloaded
+- [ ] `09-Modern-Practice-Map.md` skimmed, so you know what is current
 
 Next: `05-The-Six-Sprints.md`, then `Design-Sprint-1/00-READ-FIRST.md`.

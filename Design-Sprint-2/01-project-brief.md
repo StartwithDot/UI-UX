@@ -110,4 +110,4 @@ Assigned:
 - Rocket Surgery Made Easy, Krug
 - Continuous Discovery Habits, Torres, the opportunity solution tree chapters
 
-Full list: `../../Learning Resources.md` Sprint 2 section.
+Full list: `../03-Books-And-Resources.md`.

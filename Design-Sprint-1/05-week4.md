@@ -17,14 +17,14 @@
 |---|---|---|
 | **1** | WCAG 2.2 AA, the 12 criteria that matter here | C7.1 C7.2 — keyboard and focus, contrast pass |
 | **2** | web.dev Learn Accessibility · Deque screen reader module | C7.3 C7.4 — screen reader run, target sizes and motion |
-| **3** | Refactoring UI on finishing touches | C8.1 C8.2 — high fidelity, desktop |
+| **3** | Refactoring UI ch. 8 (finishing touches) | C8.1 C8.2 — high fidelity, desktop |
 | **4** | Norman ch. 1–4 · your own decision records | S4.1 P4.1 — handoff spec, decision record · **critique** |
 | **5** | — | **Defense, 55 min each** · P4.2 reflection |
-| **6** | — | S5 system handover · F4 sprint retro |
+| **6** | — | S5 system handover · F4 sprint retro · **JR1** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -42,7 +42,7 @@
 
 ### C7.1 — Keyboard and focus
 
-**Learn first:** WCAG 2.1.1, 2.4.3, 2.4.7 from this study time.
+**Learn first:** WCAG 2.1.1, 2.4.3, 2.4.7 from today's LEARN block.
 
 **Method**
 1. Make your prototype keyboard operable, in the design: define the tab order for every screen.
@@ -88,7 +88,7 @@
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 90 minutes
 
@@ -150,13 +150,13 @@
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 60 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
-| **Refactoring UI** | The chapters on finishing touches, shadows and depth, and working with images | 40 min |
+| **Refactoring UI** | Ch. 8 "Finishing Touches", ch. 6 "Creating Depth", ch. 7 "Working with Images" | 40 min |
 | **Your own week 1 tokens** | Re-read C1.1, C1.2, C2.1. You are about to use them at full fidelity. | 20 min |
 
 → **Commit** `session3-learning.md`
@@ -200,7 +200,7 @@
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 60 minutes
 
@@ -265,12 +265,12 @@ Run the full checklist in `06-accessibility-gate.md`. Every line needs evidence:
 
 → `students/UX{n}/week4/accessibility-gate-signed.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Final critique. Present your full flow. The critique lead files the final log for the sprint.
 
 ---
 
-# the end of the week
+# Day 5
 
 ## Defense — 55 minutes each
 
@@ -305,13 +305,13 @@ After your defense, written straight away while it is uncomfortable:
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S5 — System handover, 90 minutes
 
 ### S5.1 — Sprint 1 system release
 Tokens final. Every component documented with all states. A changelog written.
-→ `system/docs/CHANGELOG.md`, `system/docs/README.md`
+→ `system/docs/CHANGELOG.md`, `system/README.md`
 
 ### S5.2 — Dark mode test
 Add a dark mode to your semantic tokens only. Zero changes to any component allowed. If a component breaks, your token layer was not doing its job, and that is the finding.
@@ -334,6 +334,12 @@ Everything the system got wrong or left undone in Sprint 1, written for the next
 
 **F4.4 — Drill log review.** 20 entries. Read them and note what you consistently get wrong from memory. That is your visual blind spot, and now you know it.
 
+## Lab JR1 — Position yourself and start the portfolio, 2 hours
+
+Full method and done-when checklist: `06-Job-Readiness-Track.md` (repository root), section JR1.
+
+→ `students/UX{n}/portfolio/JR1-positioning.md`
+
 ---
 
 ## Sprint 1 done when
@@ -348,5 +354,6 @@ Everything the system got wrong or left undone in Sprint 1, written for the next
 - [ ] Reflection written
 - [ ] System released with a changelog and a debt list
 - [ ] 4 teardowns, 1 explainer, 20 drill entries
+- [ ] JR1 done, with the external input it needs
 
 Next: `../Design-Sprint-2/00-READ-FIRST.md`

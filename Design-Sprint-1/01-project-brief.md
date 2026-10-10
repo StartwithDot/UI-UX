@@ -123,7 +123,7 @@ The system owner rotates weekly. The system must build and its documentation mus
 
 ## 10. Reference material
 
-The full list with tiers is in `../../Learning Resources.md`, Sprint 1 section. The four that are assigned reading, not reference:
+The full list with tiers is in `../03-Books-And-Resources.md`. The four that are assigned reading, not reference:
 
 - Refactoring UI, Wathan and Schoger
 - Form Design Patterns, Adam Silver

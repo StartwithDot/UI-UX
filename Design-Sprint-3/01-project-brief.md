@@ -1,123 +1,139 @@
-# Sprint 3 Project Brief: The Transporter Platform
+# Sprint 3 Project Brief: Sutra, a Subscription That Has to Be Cancellable
 
-**Weeks 9 to 12 | Track focus: Product and Business | Cohort: UX1 to UX5**
+**Weeks 9 to 12 | Track focus: Interaction, Product and Ethics | Cohort: UX1 to UX5**
+
+*Sutra is a fictional company. The numbers are invented for this exercise and are consistent across the sprint. Do not quote them outside it.*
 
 ---
 
 ## 1. The client
 
-A three year old company selling fleet management software to small transporters. Web plus a basic Android app. ₹2,400 per truck per year.
-
-The numbers:
+Sutra is a spoken-language learning app. Learners practise English, and Hindi, Tamil or Telugu as a second language, in ten-minute daily lessons with a voice coach. Three years old, 45 people, Android first, iOS second.
 
 | Metric | Value |
 |---|---|
-| Paying customers | 400 fleet owners |
-| Trucks under management | 4,800 |
-| Signed up in the last 12 months | 1,900 |
-| Still active at day 30 | 410, which is 22 percent |
-| Still paying at month 12 | 61 percent of those who reach day 30 |
-| Average fleet size | 12 trucks |
-| Runway | 14 months |
+| App installs, last 12 months | 1,200,000 |
+| Created an account | 520,000 (43% of installs) |
+| Completed a first lesson | 286,000 (55% of accounts) |
+| Completed 5 lessons within 7 days | 74,000 (26% of first-lesson completers) |
+| Started the 7-day free trial | 41,000 |
+| Paid after the trial | 8,200 (20% of trials) |
+| Paying learners today | 31,000 |
+| Price | ₹499 per month, or ₹3,999 per year |
+| Still paying at month 3 | 54% |
+| Still paying at month 3, if they completed 5 lessons in their first week | 81% |
+| Cancellation attempts per month | about 3,400 |
+| Support contacts that include the words "cancel" or "charged" | 22% of all support volume |
+| Runway | 16 months |
 
-The pattern is clear and it is the entire brief: people who get past day 30 stay for years. People who do not get past day 30 leave in the first fortnight. Everything the company spends on acquisition is being poured into a bucket with a hole in the first two weeks.
+The pattern is the brief. People who build a habit in week one stay; people who do not leave quietly or, worse, leave angrily. The company's instinct is to fix the second group with friction in the cancellation flow, and a board member has already suggested it.
 
-Their brief: "improve onboarding".
+The company's brief: "reduce churn."
+
+That is a goal, not a brief. Your first job is to find out which churn.
 
 ## 2. What the product does
 
-Trip management, driver records, fuel logs, maintenance schedules, document expiry tracking for permits, insurance and fitness certificates, and basic profit per trip.
+Daily lessons, a streak counter, voice practice with feedback, a weekly progress summary, and a subscription: free trial, monthly, annual, pause, cancel, reactivate.
 
-What the customer does today instead, and this is the real competitor:
+What learners use instead, and this is the real competition:
 
-| Job | Current tool |
+| Job | What they do today |
 |---|---|
-| Assign a trip to a driver | Phone call |
-| Track where the truck is | Call the driver |
-| Record fuel | Paper slip in the glovebox, entered into a diary weekly |
-| Know when insurance expires | Memory, plus an agent who calls |
-| Know if a trip made money | Mental arithmetic, monthly, roughly |
-| Share a delivery note | WhatsApp photo |
+| Learn English phrases | Free video lessons and short clips on their phone |
+| Practise speaking | A WhatsApp group with friends, or nothing |
+| Stay motivated | A study group, or a coaching centre they pay in cash |
 
-**WhatsApp and a diary are the competitor.** Not another software product. A design that is better than the other software and worse than the diary loses.
+Free and good enough is the competitor. A design that is better than other apps and worse than a free video loses.
 
 ## 3. The users
 
-**Suresh, 44, owns 14 trucks.** Runs the business from a small office and his phone. Types slowly, uses voice notes constantly, has never used a desktop spreadsheet. Sharp about money and can tell you the margin on any route from memory. Failure mode: signs up, sees a form asking him to enter 14 trucks with 9 fields each, closes it, never returns.
+**Divya, 21, college student.** Pays through UPI AutoPay set up on her father's phone. Uses the app on a prepaid Android phone with limited storage. Failure mode: an autopay debit fails, her subscription goes past due, she gets one notification she does not see, and her streak resets. She believes she did something wrong and stops opening the app.
 
-**Anita, 31, runs operations for her father's 30 truck fleet.** Comfortable with software, uses Excel well, is the person who would actually adopt this. Failure mode: adopts it, finds that the drivers do not submit anything, and abandons it after three weeks of doing double entry.
+**Imran, 34, retail supervisor.** Bought the annual plan to get a promotion that needs spoken English. Travels for Ramzan every year and will not study for a month. Failure mode: looks for a way to pause, cannot find one, and cancels. Six months later he would have come back.
 
-**Ravi, 38, driver.** Android phone, low storage, prepaid data, drives 10 hours a day. He is not the buyer and he is the one who has to enter the data. Failure mode: every single one of them. If the driver does not submit, the platform holds stale data and stale data is worse than no data.
+**Mr. Prakash, 58.** Subscribed because his son set it up as a gift, and does not know it renews. Failure mode: sees a charge he does not recognise, believes it is fraud, calls his bank, and files a chargeback. Sutra pays a fee and a penalty to the card network, and gets a one-star review.
 
-The buyer and the data entry user being different people is the structural problem of this product. A designer who solves for Suresh alone has designed something that fails in week two.
+The buyer, the user and the person watching the bank statement are often three different people. A designer who solves for the engaged learner alone has solved for the people who were never going to cancel.
 
 ## 4. What is known
 
-- The first three days are where 60 percent of the loss happens
-- The signup flow requires adding at least one truck before anything can be seen
-- Adding a truck asks for 9 fields, four of which need documents the owner does not have to hand
-- 71 percent of accounts never add a second truck
-- Accounts that record 10 or more trips in the first month retain at 4 times the rate of those that do not
-- Support requests in the first week are overwhelmingly "how do I get my drivers to use this"
+- 60% of the learners who leave in the first month never completed five lessons in their first week
+- Learners who reach a streak of 5 days convert from trial to paid at roughly three times the rate of those who do not
+- 35% of cancellation attempts happen within 48 hours of a renewal charge
+- Of those who reach the cancel screen today, about one in four abandons it because it asks them to email support
+- A quarter of "I want to cancel" support contacts say they had already tried in the app
+- 11% of past-due subscriptions are recovered by the one email that goes out; nobody has measured whether the in-app banner helps
 
-That last one and the 10 trip number are the two most useful facts in the brief. What a designer does with them separates this sprint's outcomes.
+The 5-lesson number and the 35% renewal number are the two most useful facts. What you do with them separates this sprint's outcomes.
 
 ## 5. Constraints
 
 | Constraint | Consequence |
 |---|---|
-| Drivers are on cheap Android phones with little storage and prepaid data | The driver side has a hard weight budget. An app install may be the wrong answer. |
-| Permit, insurance, and fitness documents are legally required and vary by state | Document tracking cannot be simplified away, only staged |
-| The company has 14 months of runway | A design that takes 9 months to build is a design that does not happen |
-| Engineering is 4 people | Scope is real. Shape Up appetite applies. |
-| Owners will not do data entry | Anything requiring the owner to type regularly fails |
-| No integrations with GPS providers yet | Live location is out of scope. Designing around its absence is in scope. |
+| Recurring UPI and card debits need a pre-debit notification, about 24 hours before each charge | A renewal cannot be a surprise to the user, and the notification is a design surface |
+| India's consumer protection authority has published guidance naming dark patterns, including subscription traps and false urgency | The legal exposure of a manipulative flow is real and written down |
+| The Digital Personal Data Protection Act applies to learner data | What happens to a learner's data after cancellation is a design decision with a legal consequence |
+| Payment provider confirms a cancellation in 4 to 6 seconds | A latency state you must design, not hide |
+| Android storage is tight for most learners | Heavy motion and heavy assets have a real cost |
+| Engineering is 6 people | Scope is real |
+| Learners study in a noisy room, often one-handed, in short sessions | Interaction must be forgiving and fast |
 
 ## 6. The metric work
 
-This sprint requires you to define, not just cite, the metrics.
+This sprint requires you to define the metrics, not cite them (task P9.2).
 
-**Primary:** day 30 activation, and you must define activation. The company has not. Is it a trip recorded? Three trips? A second truck added? A driver submitting once? Your definition must be defensible against the retention data, which shows 10 trips in month one is a strong signal.
+**Primary:** you must define **activation**. The company has not. Is it one lesson, five lessons in week one, a 5-day streak, a voice exercise passed? Your definition has to be defensible against the retention data in section 1.
 
-**Input metrics:** time to first trip recorded, proportion of accounts with a second truck in the first week, proportion of drivers who submit at least one record, first week support contact rate.
+**Input metrics:** time to first completed lesson, share of trial starters who reach a 3-day streak, share of past-due accounts recovered within 7 days.
 
-**Guardrail:** paid conversion and month 12 retention must not fall. An onboarding that gets people to a hollow activation event and then loses them at month 3 has moved a number and destroyed value.
+**Guardrail:** month-3 retention, refund rate and chargeback rate must not get worse. A flow that lifts activation by pushing discounts and then loses people at month 3 has moved a number and destroyed value.
+
+**Traffic for experiments** (needed in E1.5): about 3,400 cancellation attempts a month, of which roughly 40% see a retention offer today. Use this to decide whether an experiment can detect an effect in a sensible time.
 
 ## 7. Deliverables by week
 
 | Week | Ships |
 |---|---|
-| 9 | Activation defined with evidence, funnel mapped, IA proposed, competitive teardown including WhatsApp as the competitor |
-| 10 | Feature scoped in Shape Up terms with an appetite, IA tree tested, end to end flow designed |
-| 11 | Prototype with real logic, tested with 5 users, persuasion audit, the ethics decision |
-| 12 | Final flow, instrumentation plan, experiment design, business case, defense |
+| 9 | The subscription state machine with every guard, a latency plan and feedback design, undo and irreversibility decisions, a transition inventory, high-fidelity states, state-change microcopy, five interaction principles, and the funnel with an activation definition and metric set |
+| 10 | A motion audit of three real products, duration and easing decisions, a purpose test that deletes decoration, built transitions, a reduced-motion version, and a motion spec |
+| 11 | A dark pattern audit of three real products, a persuasion test, one built dark pattern with its cost accounted, the honest version with a business argument and an experiment design. **The business demand lands.** |
+| 12 | An ethics position, a written refusal, the shipped flow with an accessibility pass and a full spec with instrumentation, the showpiece pass, and the defense |
 
 ## 8. The scope exercise
 
-You have a six week appetite, not a scope list. What fits in six weeks of four engineers is the design. Anything that does not fit gets cut and the cut is written down with the reason.
+You have a **six-week appetite** with six engineers, not a scope list. What fits is the design. Anything that does not fit gets cut, and the cut is written down with the reason.
 
-A designer who delivers a beautiful flow requiring nine months of engineering has not designed a product, they have drawn one.
+A designer who delivers a beautiful flow that needs nine months of engineering has not designed a product, they have drawn one.
 
 ## 9. The ethics decision
 
-In week 11 the client will ask for one of the following, delivered through the core admin. You do not know which one until it arrives.
+In week 11 the client will make one of the following requests, delivered through the core admin. You do not know which until it arrives.
 
-- A default that opts fleet owners into a paid add on
-- A cancellation flow with a retention offer that requires a phone call
-- A notification pattern that pushes drivers harder than they consented to
-- A trial expiry that hides the fleet's own data behind the paywall
+- Pre-select the annual plan at checkout, with auto-renewal, and show the monthly price in small grey text
+- Replace the in-app cancel button with a chat, so that cancelling needs a conversation with a retention agent
+- When the trial ends, show a countdown and "your streak and progress will be deleted in 24 hours" unless the learner pays
+- Charge the renewal first and send the pre-debit reminder afterwards, to catch learners who would have cancelled
 
-Your answer, in writing, must state: what it does to the number, what it costs the user, where it sits against the dark pattern catalogue and the DPDP Act, and what you would do instead that achieves a defensible share of the same business outcome.
+Your answer, in writing, must state: what it does to the number, what it costs the learner, where it sits against the dark pattern catalogue and the law, and what you would build instead that earns a defensible share of the same business outcome.
 
 **Refusing without an alternative is not an answer.** Neither is complying. The reasoning is the deliverable.
 
-## 10. Reading
+## 10. The showpiece standard
 
-Assigned:
-- Inspired, Cagan, parts 1 to 4
-- Shape Up, the shaping and betting sections
-- The Google HEART framework paper
-- Deceptive Design, the pattern catalogue
-- Information Architecture, Rosenfeld et al, the navigation and labelling chapters
+This is the sprint's visual project. Sutra is a consumer app that people choose to open, and it has to feel like one: considered type, colour with a point of view, delight in the lesson-complete moment, motion with a purpose. Week 12 includes a showpiece pass (C12.3) because this is the work that goes on the front page of your portfolio.
 
-Full list: `../../Learning Resources.md` Sprint 3 section.
+The standard does not replace the accessibility gate. It sits above it. A beautiful screen that fails contrast is not a showpiece, it is a failure.
+
+## 11. Reading
+
+Assigned across the sprint (see the week files for the exact chapters):
+
+- About Face, Cooper, chapters on postures, undo and error tolerance
+- Designing Interface Animation, Val Head
+- Ruined by Design, Mike Monteiro
+- deceptive.design, the pattern catalogue
+- The published guidance on dark patterns from the CMA, the FTC and India's consumer protection authority
+- The Google HEART framework paper, and the funnel chapters of Lean Analytics (for P9.2)
+
+The full resource list is in the root `03-Books-And-Resources.md`.

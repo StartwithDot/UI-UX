@@ -17,7 +17,7 @@ Not a concept. Not three pretty screens. A complete, defensible flow.
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | now, before the start of the week |
+| 2 | `01-project-brief.md` | now, before the sprint starts |
 | 3 | `02-week1.md` | when week 1 opens |
 | 4 | `03-week2.md` | when week 2 opens |
 | 5 | `04-week3.md` | when week 3 opens |
@@ -45,7 +45,7 @@ Reference, open when a task points at them:
 
 ```
 STUDY    LEARN     1 to 2 h    named source, then a committed summary
-BUILD  DO        1 to 2 h    a task built on that study time's reading
+BUILD  DO        1 to 2 h    a task built on that day's LEARN reading
 ```
 
 Week files give you the exact chapter, the exact page range, the exact video. Never "read about typography".
@@ -54,7 +54,7 @@ Every task in this sprint has four parts:
 
 | Part | What it gives you |
 |---|---|
-| **Learn first** | Which part of the study time's reading this uses |
+| **Learn first** | Which part of that day's LEARN reading this uses |
 | **Method** | Numbered steps. The procedure, not the answer. |
 | **Worked example** | A correct answer for a different case, so you know the shape |
 | **Done when** | The checklist that says you can stop |
@@ -104,6 +104,8 @@ The **system owner** for the week merges contributions. That role rotates.
 - One post mortem on the mid-sprint failure
 - 20 learning summaries
 - A passed defense
+- Two labs: AI as a source of options (L-AI1, week 2) and responsive behaviour (L-PR1, week 3)
+- Your portfolio positioning, platform decision and asset checklist (JR1, week 4)
 
 ---
 
@@ -119,7 +121,7 @@ The **system owner** for the week merges contributions. That role rotates.
 
 ---
 
-## Before the start of the week
+## Before the sprint starts
 
 - [ ] Read `01-project-brief.md`
 - [ ] Have Refactoring UI downloaded

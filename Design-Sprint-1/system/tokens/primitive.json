@@ -1,0 +1,14 @@
+{
+  "$description": "Primitive tokens: raw values only. Screens never reference these directly. Filled in Sprint 1, week 1 (tasks C1.1, C1.2, C2.1).",
+  "color": {
+    "neutral": {},
+    "primary": {}
+  },
+  "space": {},
+  "font": {
+    "size": {},
+    "line-height": {},
+    "weight": {}
+  },
+  "radius": {}
+}

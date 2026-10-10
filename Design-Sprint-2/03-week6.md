@@ -20,11 +20,11 @@
 | **3** | Interviewing Users ch. 5 | R4.4 — interviews 3 and 4 |
 | **4** | Just Enough Research on synthesis | R4.5 R4.6 — interview 5, first pass at patterns · **critique** |
 | **5** | NNGroup on affinity diagramming | R4.7 P6.1 — affinity map, revised hypothesis |
-| **6** | — | S7 system · F6 why session and teardown |
+| **6** | — | S7 system · F6 why session and teardown · **L-AI2** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 75 minutes
 
@@ -64,7 +64,7 @@
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 75 minutes
 
@@ -122,7 +122,7 @@ Same protocol. Apply your three fixes. At the end of the write-up, note whether 
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 60 minutes
 
@@ -152,7 +152,7 @@ Same protocol. Two in one day is tiring, and if you have to reschedule one, do t
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 60 minutes
 
@@ -186,12 +186,12 @@ Final interview. Same protocol.
 
 → `students/UX{n}/week6/R4-6-patterns.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Present two findings and one quote. The critique focus: **is this a finding or is it your hypothesis wearing a quote as a costume?**
 
 ---
 
-# the end of the week
+# Day 5
 
 ## LEARN — 45 minutes
 
@@ -241,7 +241,7 @@ Re-read your P5.2 reframed brief from last week, before you have looked at this 
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S7 — System, 90 minutes
 
@@ -259,6 +259,12 @@ Re-read your P5.2 reframed brief from last week, before you have looked at this 
 
 **F6.3 — Drill continues.**
 
+## Lab L-AI2 — Catch the invention, 90 minutes
+
+Full method and done-when checklist: `07-AI-In-Design.md` (repository root), section L-AI2.
+
+→ `students/UX{n}/week6/L-AI2-catch-the-invention.md`
+
 ---
 
 ## End of week checklist
@@ -270,6 +276,7 @@ Re-read your P5.2 reframed brief from last week, before you have looked at this 
 - [ ] P6.1 revised hypothesis with a confidence level
 - [ ] Every file anonymised, nothing identifiable in git
 - [ ] Critique attended
+- [ ] L-AI2 done (90 minutes)
 
 **If an interview fell through,** document it and run a replacement in week 7. Four interviews with an honest note is acceptable. Four interviews presented as five is not.
 

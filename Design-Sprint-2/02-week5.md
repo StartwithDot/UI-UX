@@ -24,7 +24,7 @@
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -87,7 +87,7 @@
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 90 minutes
 
@@ -137,7 +137,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 75 minutes
 
@@ -191,7 +191,7 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 75 minutes
 
@@ -249,12 +249,12 @@ Note that both directions are stated. A plan that can only confirm what you expe
 
 → `students/UX{n}/week5/P5-1-stakeholders.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Present your research plan. The critique question is not "is this nice", it is **"could this plan produce a result that surprises you?"** If not, it is confirmation, not research.
 
 ---
 
-# the end of the week
+# Day 5
 
 ## LEARN — 60 minutes
 
@@ -301,7 +301,7 @@ Present your research plan. The critique question is not "is this nice", it is *
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S6 — System, 90 minutes
 
@@ -335,6 +335,6 @@ The Sprint 1 system carries forward. This week it needs the components a researc
 - [ ] Consent forms ready, including the minor version
 - [ ] Critique attended
 
-**Do not enter week 6 without confirmed participants.** Everything in weeks 6 to 8 depends on it. If you are not scheduled by the end of the week, tell the admin on the end of the week, not at the start of the week.
+**Do not enter week 6 without confirmed participants.** Everything in weeks 6 to 8 depends on it. If you are not scheduled by the end of the week, tell the admin on Day 5, not on Day 1 of week 6.
 
 Next: `03-week6.md`

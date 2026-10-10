@@ -1,6 +1,6 @@
 # Critique Guide
 
-late in the week, 90 minutes, every week. Run by that week's critique lead. Applies to every sprint.
+Day 4, 90 minutes, every week. Run by that week's critique lead. Applies to every sprint.
 
 Critique is the highest value hour in the program because it is the same skill as the app critique interview round and the same skill as design review at work.
 
@@ -49,7 +49,7 @@ If you cannot name the principle or the cost, you are stating a preference. Pref
 - Write everything. Do not respond in the room beyond a clarifying question.
 - Do not explain why the comment is wrong. If it is wrong, that will be true tomorrow too.
 - Do not thank each comment individually, it eats the clock.
-- On the end of the week, decide what to act on. You are allowed to reject feedback. You are not allowed to reject it silently: `S3-2-wont-fix.md` exists for that.
+- On Day 5, decide what to act on. You are allowed to reject feedback. You are not allowed to reject it silently: `S3-2-wont-fix.md` exists for that.
 
 The instinct to defend live is the single biggest waste of critique time. A comment you can defend instantly is usually a comment you have not understood yet.
 
@@ -92,7 +92,7 @@ The cross cutting section is what makes this log worth keeping. A mistake three 
 
 ## 7. Teardown, the other half of the skill
 
-the cohort review, one product surface, 60 minutes. Assigned by admin, never chosen by the presenter, because choosing means picking something easy.
+Day 6, one product surface, 60 minutes. Assigned by admin, never chosen by the presenter, because choosing means picking something easy.
 
 Format per finding, committed to `fundamentals/teardowns/NN-subject.md`:
 

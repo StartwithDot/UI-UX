@@ -14,7 +14,7 @@ The technical work is the easy half. The hard half is that other people will use
 
 ## The project
 
-A multi-product design system for a fictional company with three products: a customer-facing mobile app, an internal operations tool, and a public marketing site.
+A multi-product design system for a fictional health tech company with three products built on three frameworks: a patient app (React Native), a doctor console (React) and a hospital admin portal (Vue). Two brands, one patient-facing and one clinical.
 
 Three products is the point. A system for one product is a style guide. A system for three products with genuinely different needs is where every real governance question appears — theming, density, brand divergence, and who wins when two products want opposite things.
 
@@ -25,11 +25,11 @@ Three products is the point. A system for one product is a style guide. A system
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | before the start of the week |
-| 3 | `02-week13.md` | when week 1 opens3 |
-| 4 | `03-week14.md` | when week 1 opens4 |
-| 5 | `04-week15.md` | when week 1 opens5 |
-| 6 | `05-week16.md` | when week 1 opens6 |
+| 2 | `01-project-brief.md` | before the sprint starts |
+| 3 | `02-week13.md` | when week 13 opens |
+| 4 | `03-week14.md` | when week 14 opens |
+| 5 | `04-week15.md` | when week 15 opens |
+| 6 | `05-week16.md` | when week 16 opens |
 
 Reference: `06-token-architecture.md` — the three-layer token model in full, with naming rules.
 
@@ -39,7 +39,7 @@ Reference: `06-token-architecture.md` — the three-layer token model in full, w
 
 | Week | Called | You learn | You produce |
 |---|---|---|---|
-| **13** | Tokens | Three-layer architecture, naming, theming | A full token set that themes without redesign |
+| **13** | Tokens | Auditing divergence, three-layer architecture, naming, theming | A costed audit and a full token set that themes without redesign |
 | **14** | Components | APIs, variants, composition, slots | Six components with designed APIs and documentation |
 | **15** | Governance | Contribution, review, deprecation · **failure injection** | A governance model and a real deprecation |
 | **16** | Adoption | Migration, measurement, and being ignored | An adoption plan with metrics and a migration guide |
@@ -81,10 +81,12 @@ Plus real systems: Polaris, Material 3, Carbon, Spectrum, and GOV.UK. Read their
 - A post mortem
 - 20 learning summaries
 - A passed defense
+- Two labs: components that survive stress (L-PR3, week 13) and reading code you did not write (L-AI4, week 14)
+- The design-system case study and your second mock interview (JR4, week 16)
 
 ---
 
-## Before the start of the week
+## Before the sprint starts
 
 - [ ] Read `01-project-brief.md`
 - [ ] Read `06-token-architecture.md`

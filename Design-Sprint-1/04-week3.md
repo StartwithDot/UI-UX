@@ -17,22 +17,22 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 | Step | LEARN | DO |
 |---|---|---|
-| **1** | Refactoring UI on empty states · Material 3 + Polaris state guidance | C5.1 C5.2 — states matrix, empty and loading |
+| **1** | Refactoring UI ch. 8 (empty states) · Material 3 + Polaris state guidance | C5.1 C5.2 — states matrix, empty and loading |
 | **2** | Rocket Surgery Made Easy ch. 1–4 | R2.1 R2.2 — test script, recruit and run session 1 |
 | **3** | Krug on observing without leading | R2.3 R2.4 — sessions 2 and 3, severity rating |
 | **4** | Your own findings, re-read cold | C5.3 C6.1 — offline and error states, fixes · **critique** · **whiteboard why** |
 | **5** | (failure injection lands) | X1 P3.1 — post mortem, revised decisions |
-| **6** | — | S3 system update · F3 why session and teardown |
+| **6** | — | S3 system update · F3 why session and teardown · **L-PR1** |
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
 | Source | What exactly | Time |
 |---|---|---|
-| **Refactoring UI** | The chapters on empty states and on designing for the absence of data | 25 min |
+| **Refactoring UI** | Ch. 8, "Don't overlook empty states", and the "Supercharge the defaults" section | 25 min |
 | **Material Design 3** | The "Loading" and "Progress indicators" guidance | 20 min |
 | **Shopify Polaris** | The "Empty states" pattern page and the "Skeleton" component page | 25 min |
 | **NNGroup** | "Progress Indicators" and "Response Times: The 3 Important Limits" | 20 min |
@@ -99,7 +99,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 90 minutes
 
@@ -153,7 +153,7 @@ This is the week something breaks. A constraint will change mid-week. You do not
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 60 minutes
 
@@ -176,7 +176,7 @@ If something is obviously catastrophic, note it and keep going. You fix it late 
 
 ### R2.4 — Findings and severity
 
-**Learn first:** the NNGroup severity ratings article from this study time.
+**Learn first:** the NNGroup severity ratings article from today's LEARN block.
 
 **Method**
 1. Now you interpret. One row per issue.
@@ -201,7 +201,7 @@ If something is obviously catastrophic, note it and keep going. You fix it late 
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 45 minutes
 
@@ -251,7 +251,7 @@ For state 4, you must state what the system does: is submission idempotent, is t
 
 → `students/UX{n}/week3/C6-1-fixes.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Present your findings and your fixes. The strongest thing you can present is a finding that contradicted something you were confident about in week 2.
 
 ### Whiteboard why — 15 minutes, with the admin
@@ -259,11 +259,11 @@ No notes. No files open. Draw your flow from memory and answer three questions d
 
 ---
 
-# the end of the week
+# Day 5
 
 ## The failure injection lands
 
-The admin delivers a constraint change this study time. You do not know in advance which one. It is real, it is not negotiable, and it invalidates part of what you built.
+The admin delivers a constraint change during this morning's LEARN block. You do not know in advance which one. It is real, it is not negotiable, and it invalidates part of what you built.
 
 ## DO — 2 hours
 
@@ -309,7 +309,7 @@ That is the answer the defense is looking for: a named earlier decision, the rea
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S3 — System update, 90 minutes
 
@@ -335,6 +335,12 @@ If the injection affected the shared system, the cohort decides together how to 
 
 **F3.3 — Drill continues.**
 
+## Lab L-PR1 — Responsive behaviour and platform conventions, 2 hours
+
+Full method and done-when checklist: `08-Prototyping-And-Responsive.md` (repository root), section L-PR1.
+
+→ `students/UX{n}/week3/L-PR1-responsive.md`
+
 ---
 
 ## End of week checklist
@@ -346,6 +352,7 @@ If the injection affected the shared system, the cohort decides together how to 
 - [ ] X1 post mortem, P3.1 revised decisions
 - [ ] Whiteboard why attempted
 - [ ] Critique attended
+- [ ] L-PR1 done (2 hours)
 
 **Do not cut R2.2, R2.3, or R2.4.** Three real users is the entire evidence base for your defense next week. Without it you have opinions.
 

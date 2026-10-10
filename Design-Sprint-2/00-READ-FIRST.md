@@ -25,7 +25,7 @@ Your job in week 5 is to work out whether that belief is true, before anyone des
 | # | File | When |
 |---|---|---|
 | 1 | `00-READ-FIRST.md` | now |
-| 2 | `01-project-brief.md` | before the start of the week |
+| 2 | `01-project-brief.md` | before the sprint starts |
 | 3 | `02-week5.md` | when week 5 opens |
 | 4 | `03-week6.md` | when week 6 opens |
 | 5 | `04-week7.md` | when week 7 opens |
@@ -83,10 +83,12 @@ Full details in the root `03-Books-And-Resources.md`.
 - One post mortem on the mid-sprint failure
 - 20 learning summaries
 - A passed defense
+- A lab on catching AI invention in research summaries (L-AI2, week 6)
+- Case study 1 as a one-page draft, a live skeleton site, and an external review (JR2, week 8)
 
 ---
 
-## Before the start of the week
+## Before the sprint starts
 
 - [ ] Read `01-project-brief.md`
 - [ ] Read `06-research-ethics.md` completely

@@ -8,7 +8,7 @@
 
 You stop designing products and start designing the evidence that you can design products.
 
-This is the sprint most programs skip or do badly, and it is the one that decides whether the previous twenty weeks convert into a job. You have five projects, thousands of words of documented reasoning, real research with real participants, and five defended sprints. Almost nobody applying for a junior role has that. Right now it is all in a git repository that no hiring manager will ever open.
+This is the sprint most programs skip or do badly, and it is the one that decides whether the previous twenty weeks convert into a job. You have five projects, thousands of words of documented reasoning, real research with real participants, and five defended sprints. Almost nobody applying for a junior role has that. Right now most of it is in a git repository that no hiring manager will ever open. You have been moving it out since Sprint 1 (tasks JR1 to JR5, `../06-Job-Readiness-Track.md`), so this sprint is selecting, editing and testing, not starting.
 
 ---
 
@@ -30,7 +30,7 @@ Everything in Sprint 6 follows from that sentence. Ninety seconds means the firs
 | 4 | `04-week23.md` | when week 23 opens |
 | 5 | `05-week24.md` | when week 24 opens |
 
-References: `06-case-study-structure.md` — the structure and why each part exists. `07-interview-question-bank.md` — 150 real questions, with what the interviewer is actually testing.
+References: `06-case-study-structure.md` — the structure and why each part exists. `07-interview-question-bank.md` — 108 real questions, with what the interviewer is actually testing.
 
 ---
 
@@ -78,12 +78,14 @@ References: `06-case-study-structure.md` — the structure and why each part exi
 - A 90-day plan for after the program
 - 20 learning summaries
 - A 90-minute final defense passed
+- A placement-readiness result from an external panel: Ready, Ready with a named gap, or Not yet
 
 ---
 
-## Before the start of the week
+## Before the sprint starts
 
 - [ ] Read `06-case-study-structure.md`
+- [ ] Bring your JR drafts, mock interview scorecards and target list of 20
 - [ ] Pull up all five projects and rank them honestly by strength of *evidence*, not by how they look
 - [ ] Find ten real job openings you would apply to and save them. You will need them in week 24.
 - [ ] Find three portfolios of designers currently employed at the level you want, and note what their first screen does

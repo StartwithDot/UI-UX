@@ -10,7 +10,7 @@ Read after `00-START-HERE.md`. This is the operating manual: your week, your rol
 24 weeks
  └── 6 sprints × 4 weeks each
       └── each sprint: 1 client project, 1 defense at the end
-           └── each week: 5 learn-then-do days + critique + session
+           └── each week: 5 learn-then-do days + critique + a cohort day (Day 6)
                 └── each task: LEARN block, then DO block
 ```
 
@@ -32,7 +32,7 @@ At the end of the block, write a summary. It is short and it has a fixed shape:
 # Week 1, session 1 — Learning summary
 
 ## What I read or watched
-- Refactoring UI, "Hierarchy is Everything", pp. 27–52
+- Refactoring UI, ch. 2 "Hierarchy is Everything"
 - Figma Learn: Auto Layout, 18 min
 
 ## Three things I learned
@@ -68,7 +68,7 @@ If a task ever feels impossible, you skipped the LEARN block. Go back to it.
 
 ```
 WEEK OPENS ──────────► WORK ──────────► CRITIQUE ──────► GATE ──────► WEEK CLOSES
-kickoff 15m            learn + do       90 min           check        session 90 min
+kickoff 15m            learn + do       90 min           check        cohort day
                        commit as        in-progress      what you     why session
                        you finish       work shown       call done    + teardown
 ```
@@ -81,7 +81,7 @@ kickoff 15m            learn + do       90 min           check        session 90
 
 **Gate.** Address critique feedback, merge, run the gate on anything you are calling done.
 
-**Week close session, 90 minutes.** One designer presents the week's "why session". One teardown is discussed. No new sprint work happens in this session.
+**Cohort day (Day 6), about 3 hours.** System work, one designer's "why session", a teardown, and the week's lab if it has one. One teardown is discussed. No new sprint work happens in this session.
 
 
 ---
@@ -96,7 +96,7 @@ Five designers. Two roles rotate every week, so across a 4-week sprint everyone 
 | **System owner** | 1 person, weekly | Owns `system/` that week. Merges component contributions, keeps tokens and docs current, writes the changelog. |
 | **Builder** | The other 3 | Sprint tasks plus one contribution to `system/` or `delivery/` |
 
-The rotation is logged in each sprint's `students/` area by the admin.
+The rotation is logged by the admin in `system/docs/rotation-log.md`.
 
 **Why these two roles exist.** Critique lead teaches you to name the user cost of a flaw instead of saying you do not like it, which is exactly what a design interview tests. System owner teaches you contribution governance and how to say no to a component, which is what design systems teams hire for.
 
@@ -116,10 +116,13 @@ Every task has a letter. The letter tells you which muscle it trains.
 | **S** | Systems and Technical | Tokens, components, documentation, governance, HTML and CSS literacy, git, handoff |
 | **F** | Fundamentals | The learning spine: why sessions, teardowns, explainers, drills |
 | **X** | Injected failure | The thing that goes wrong mid-sprint |
+| **E, I, T, G, A, K, B** | Sprint-specific | Ethics (Sprint 3), Interaction (3), Tokens (4), Governance (4), Adoption (4), the self-directed capstone (5), and Business of getting hired (6) |
+| **L-AI, L-PR** | Labs | AI in design and prototyping/responsive labs, one per sprint week listed in the learning path |
+| **JR** | Job readiness | Portfolio and mock-interview work running alongside every sprint |
 
 Task IDs look like `C1.1`, `R2.3`, `S4.2`. The number after the letter is the week-station, the number after the dot is the task within it.
 
-All four tracks run in every sprint so no skill goes cold. Sprints differ by which track carries the most weight.
+The core tracks run in every sprint so no skill goes cold. Sprints differ by which track carries the most weight.
 
 ---
 
@@ -174,7 +177,7 @@ Critique log filed. Two peer reviews given, each with at least one substantive c
 "Needs work" is a normal result and just schedules a re-run in week 4.
 
 ### Week 4 of each sprint — The defense
-55 minutes per designer, six parts.
+The length grows with the program: 55 minutes (Sprints 1 and 2), 60 (Sprints 3 and 4), 75 (Sprint 5), 90 in Sprint 6, run as an interview. Sprint 1 and 2 use six parts:
 
 | Part | Time | What is being tested |
 |---|---|---|
@@ -202,7 +205,7 @@ The admin keeps a running record per designer: concepts owned, teardowns written
 
 ## 8. Where work lives
 
-Each sprint repository has four zones.
+Each sprint folder has four zones.
 
 | Zone | What it is | Review level |
 |---|---|---|
@@ -218,7 +221,7 @@ Figma cannot be diffed, so git holds the reasoning and Figma holds the canvas.
 | Thing | Source of truth |
 |---|---|
 | Screens and components | Figma. Commit the link plus an exported PNG of the final state. |
-| Tokens | Git. `system/tokens/*.json` |
+| Tokens | Git. `system/tokens/*.tokens.json` (Design Tokens format 2025.10, see `09-Modern-Practice-Map.md`) |
 | Flows and diagrams | Git. Mermaid inside Markdown. |
 | Decisions and rationale | Git. Markdown, always. |
 | Specs and annotations | Git, Markdown, next to the Figma link |
@@ -238,7 +241,7 @@ git checkout -b UX3-C1-1           # one branch per task
 
 # ... do the work ...
 
-git add students/UX3/week1/C1-1-type-scale.md
+git add Design-Sprint-1/students/UX3/week1/C1-1-type-scale.md
 git commit -m "C1.1 type scale with Devanagari test"
 git push origin UX3-C1-1
 
@@ -271,6 +274,8 @@ Two weeks sit outside the 24: one after Sprint 3, one after Sprint 6. They exist
 
 ## 12. What must be true before a sprint is called done
 
+- The sprint's lab or job-readiness task is done, with the external input it needs
+
 - Every designer cleared the accessibility gate on their primary flow
 - Every claim traces to a source
 - The shared system builds and its documentation matches what is in it
@@ -278,5 +283,19 @@ Two weeks sit outside the 24: one after Sprint 3, one after Sprint 6. They exist
 - Every designer passed the defense or has a scheduled re-run
 - One post mortem per designer is committed
 - Every learning summary for the sprint is committed
+
+---
+
+## 13. The honest time budget, and the labs
+
+A normal week is 18 to 22 hours. Fourteen of the 24 weeks add a lab on Day 6, worth 1.5 to 3 hours.
+
+| Family | IDs | Weeks | Document |
+|---|---|---|---|
+| AI in design | L-AI1 to L-AI5 | 2, 6, 9, 14, 17 | `07-AI-In-Design.md` |
+| Prototyping and responsive | L-PR1 to L-PR4 | 3, 10, 13, 18 | `08-Prototyping-And-Responsive.md` |
+| Job readiness | JR1 to JR5 | 4, 8, 12, 16, 20 | `06-Job-Readiness-Track.md` |
+
+Labs exist because the junior market asks for the skills they train: working with AI honestly, building prototypes that behave, and having a portfolio and interview rehearsal long before you need them. If a week is running over, cut in the order stated at the end of the week file. **Never cut a gate, a lab's external input, or the learning summaries.**
 
 Next: `02-Learning-Path.md`.

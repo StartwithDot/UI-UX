@@ -24,7 +24,7 @@
 
 ---
 
-# the start of the week
+# Day 1
 
 ## LEARN — 90 minutes
 
@@ -85,7 +85,7 @@
 
 ---
 
-# early in the week
+# Day 2
 
 ## LEARN — 45 minutes
 
@@ -118,7 +118,7 @@
 
 ---
 
-# mid week
+# Day 3
 
 ## LEARN — 45 minutes
 
@@ -140,7 +140,7 @@ By session 4 you will be able to predict what happens next. That prediction is a
 
 ---
 
-# late in the week
+# Day 4
 
 ## LEARN — 45 minutes
 
@@ -185,7 +185,7 @@ Write three lines: what all five did the same, what only one did, and which of y
 
 → `students/UX{n}/week7/R5-6-fix-list.md`
 
-### the week's critique — 90 minutes
+### Critique — 90 minutes
 Present three findings with their confidence levels. The critique focus: **is the confidence level honest, or is the finding you like most given more confidence than its denominator supports?**
 
 ### Whiteboard why — 15 minutes
@@ -193,11 +193,11 @@ No notes. Draw your research plan from memory, state your three questions, and a
 
 ---
 
-# the end of the week
+# Day 5
 
 ## The failure injection lands
 
-The admin delivers the change this study time. In this sprint it is likely to be something that invalidates part of your research, not just your design. That is deliberate, and it is the most common thing that happens to real research.
+The admin delivers the change during this morning's LEARN block. In this sprint it is likely to be something that invalidates part of your research, not just your design. That is deliberate, and it is the most common thing that happens to real research.
 
 ## DO — 2 hours
 
@@ -243,7 +243,7 @@ Being able to separate these two is the skill being tested.
 
 ---
 
-# the cohort review
+# Day 6 — Cohort day
 
 ## S8 — System, 90 minutes
 

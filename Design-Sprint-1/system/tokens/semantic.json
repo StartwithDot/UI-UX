@@ -1,0 +1,11 @@
+{
+  "$description": "Semantic tokens: roles, not values. Every entry must reference a primitive, never a hex value. Screens reference only these.",
+  "color": {
+    "text": {},
+    "surface": {},
+    "border": {},
+    "feedback": {}
+  },
+  "space": {},
+  "font": {}
+}

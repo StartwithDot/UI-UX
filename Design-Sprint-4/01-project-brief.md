@@ -67,10 +67,10 @@ They have three. The problem is not the absence of a system, it is the absence o
 
 | Week | Ships |
 |---|---|
-| 13 | Full audit, divergence cost, token architecture proposal, consumer analysis |
-| 14 | Primitive and semantic layers, two brands, two themes, three proof screens |
-| 15 | Four documented components, composite, governance, contribution round, deprecation, migration plan |
-| 16 | Full documentation, adoption metrics, one rebuilt surface, adoption pitch, defense |
+| 13 | Audit and divergence cost, three-layer token set (primitive, semantic, component), two brands and dark mode, naming audit, W3C JSON export, architecture decision record |
+| 14 | Six components with designed APIs, full states, documentation a stranger can use, composition rules, accessibility spec |
+| 15 | Governance model, contribution process and rejection criteria, a real deprecation, versioning policy, post mortem |
+| 16 | Adoption measurement, migration guide for one product, adoption diagnosis, health dashboard, defense |
 
 ## 8. The part that is not design
 
@@ -95,4 +95,4 @@ Assigned:
 - Two published system documentation sites, read as documentation not as inspiration
 - The WAI-ARIA Authoring Practices patterns for the components you build
 
-Full list: `../../Learning Resources.md` Sprint 4 section.
+Full list: `../03-Books-And-Resources.md`.
