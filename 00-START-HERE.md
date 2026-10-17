@@ -1,4 +1,4 @@
-# 00 — START HERE
+# 00 — START HERE 
 
 You are in the DOTSET Product Design cohort. 24 weeks. 5 designers. 6 sprints of 4 weeks.
 
