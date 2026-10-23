@@ -1,6 +1,9 @@
+||Three brief questions||
+
+
 ## Gap 1
 
--question : what happens when a user cant verify all the details before final submission.
+-question : what happens when a user cant verify all the details before final submission ?
 
 -who can answer : KPSC technical support team maybe
 
